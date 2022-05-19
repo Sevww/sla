@@ -1,0 +1,944 @@
+<script>
+
+//var
+
+res=0
+
+//perm
+
+alert("INICIANDO SERVIDOR...");
+	
+//inicio
+
+var explo=prompt('Você levanta em uma sala branca e rapidamente olha a sua volta, na sua frente a uma botão escrito "começar quiz".\nPressionar botão? ');
+if(explo=="Sim" || explo=="sim" || explo=="ss" || explo=="s" || explo=="SIM" || explo=="S" || explo=="SS")
+{	
+	//tema
+	var tema=prompt("Quando você pressiona o botao, as 4 seguintes opções aparecem:\na)Matematica\nb)Programação\nc)IF\nd)*RESTRITO*");
+	////tema mat
+	if(tema=='matematica' || tema=='a' || tema=='A' || tema=='a)' || tema=='MATEMATICA' || tema == 'Matemática' || tema == 'matemática')
+	{
+		//1
+		alert("Iniciando quiz de Matemática...");
+		var p1=prompt("PRIMEIRA PERGUNTA:\nA divisão de 24 por 2 é:\na)12\nb)13\nc)14\nd)15");
+		if(p1=='12' || p1=='a' || p1=='A')
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		//2
+        var p2=prompt("SEGUNDA PERGUNTA:\n2+2+2+2+2X0+2=\na)0\nb)2\nc)10\nd)12");
+		if(p2=='10' || p2== 'c' || p2== 'C')
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		//3
+		alert("<•>");
+        var p3=prompt("TERCEIRA PERGUNTA:\nA̠̪̯̘̺ͫͩͬ͟ ̻̗͆́ͮͬ͘s̛͓̱̖̳̫͇̳ͨͅo͙͔̞̔̇̒͜m̷̝̘̞͎̙̺̱̻ͨą̩̹̖͚̯̯̬̓͆ͦ ̥͚͚͈̃͜d̡̺̦͋̒ͅe̡̬͍͙̿̌͐̒ͅ ̡̠͎̦̺̼͇̤̇uͩ͆̔̓͏̣̘m̞͔̣̰ͯ͟ ̴̫̹ͯ̊nͪ͏͇̝̠͕̻̟�̞̱͉̻̤̞̥̇ͦ̇̾̕�̵̮̯̝̥͓̐ͤm̩͖̝̀̔ͫ̐͝ȇ̢͍̘̠̙͍̠̲r̤̻̬͇̻̿ͩ̾̕o͓͇̺̥͓̪̔̃̀ͅ ̘̹͊̔͗͢c̵̤̬̤͚̦̲͚̎o̤͓̣͔͈̫ͣ́ͥ̀m̛̟̻̦͉͔̬̥̐ͅ ̹̪̱̘̗̇̐͢ͅs̘̩̒̾̇͡ě̻̺͓̲̣̞͡u̮̘͚̗̩̱̙͂͊̓͝ͅ ̶̠̱͎̝ͬt͔̗̊ͣ̌̓͡ȓ̶̝̝͓͔̱̂ỉ̬̼̫̖̳̙̐ͧ͒́ͅp͎͉̱̬͂ͪ̇̀ͅl̯̱̺̯̺͚̻̲̊̉͐ͣ͟ŏ͏̫̳̮ͅ ̴̝̯͔̖̋̔ͅ�́͐̂͏̝͙͓͖�̉҉̫̗ ̭͚̖̦̺̰̭̺͛ͩ͠i̵̱̜̮̖ͣ́ͧ̔g͓͕͇̩̗̲̦̍͂̚̕ũ͆̊ͮ͏̘̞͈̜͖a̫̺͉̬̟̮͉ͣ͢l̝̤̣̳̞̔ͦ̾̆͘ ̨̼̜͕̩̺̥̣̂a̐̾̊҉̮̞̻͕̝ ͍͓̙̪̪̘̦ͭ̀4̵̼͖̿͂ͅ8̯̹̥̟ͫ̀̔ͬ͢,͙̫̰̞̝̮̱̽͌̈͟ ͦͩ҉͍̣Q̧̞̪͈̥͎̖͍̃͛ͫ̾u͖͚̰̠̗ͫ͆ͦ͞â̧̗̞̠̭͚̬ͭͅl̢̞̞ͨ̐̄̐ ̸̫̣͔̠̓�̤̟̮̫͚̯͉͍ͣͣ̂͜�̹̳͓͎̗̬̗̿͘ ̙̦͇͆̽͢ë͚̞̮̗̯̥̘̫ͥ͗͜s̳͎̳̠͖ͥ͊͜s̴̬̼̝̟̗͉̗̑ę̱̙̹͈̥̼̘͍ͫ̈́̅̍ ̳͉͕̟̪̼̣̍͠n͇̼̔̃ͫ͠�͈͖̦͈ͦ͟�̴͈̦̄͛m̛̬̱̭̟̦ͬͥ̊e͚̟͓͙͍͍̬̰͊͌ͪ͂͡r̴͚ͪ͛ͅo̪̦̭ͬ̓ͯ͘?̡̗͖̒\na)10\nb)12\nc)15\nd)19");
+		if(p3=='12' || p3== 'b' || p3== 'B')
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		//4
+        var p4=prompt("QUARTA PERGUNTA:\nA raiz quadrada de 676\na)26\nb)28\nc)30\nd)34");
+		if(p4=='26' || p4== 'a' || p4== 'A')
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}//5
+		alert("Parabéns! já estamos na metade");
+        var p5=prompt("QUINTA PERGUNTA: O valor de √2 + √3X√18 é igual a:\na)√56\nb)√2 + 54\nc)√2X(1 + 3x√3)\nd)√52");
+		if(p5=="√2X(1 + 3x√3)" || p5 == 'c' || p5 == 'C')
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}//6 crash
+		alert("sexta pergunta:");
+		alert("por �̙̲͇̰̤͆͞�̣̟̲͖̜ͥ̂̍͞ͅ�͖͎͙͆ͣ͡�̢̤̘̗̲̩͍̄͐́̑�̜̼̲͆͢�̵̢̫̩͚̟̙̺̤͕͎̯̻̓ͥ̐̐̊'͇͖̰̣͓̺̺͈͍̘̳̻͓̄͋̋ͩ̐ͭ͢͝'̰̰̼̔̈̒͜�̶̹̱͐͛�̢͖̺̝̺̙͉̥̺̚�̻̠̺̹̖̈̂́̚ͅ�̳͎̳̈͂͜s̡͚͉͇̺͉̣̳͒ͪ̃ͅe̱̞̠͔͖̖͊́�̌̏ͦͭ҉̫̮̞�̛̳̟̗̦͆̅�̵̮͖̳̪͙̰ͧ͛̃ͅ�̨̘̘̗͖̦̪͛ͯ�̝͙̦̼̳͓̭̓͠ͅ�͎̰͎̻̩̰̺͉̼̏̎ͭ͗́̚͡ͅ'̶̬̮̩̼̗̌́ͧͪͧ̑̈́͏̳͉̻̦͔̖͙'̝̯̗́ͦ̉̆͡e̛̲̪͍̖͇̋ͅ�̵͈̥̳͔̩ͭͧ̚�͙͍͓ͮͦ͘e̛̹̩̞̺͗̐̌�̢͙̳̄�̴͕̻̰͙̲̿̓�̛͈͑ͭͬͅ�̺̹͙̲͗͟�̹͖͊̊ͮ͘�̡̼̹̞̳̣̻̫̗̰̼̬̝͕̟ͣ̆͒ͩ̀'̡̢̬̗͓͙̱̤̰̬͖̹̥̰̻͗̾̓ͣ̆ͩ'̢̬͉͖̱ͦe̸̠̮̞̼̫̻̔̋͂͑�͍̝̻̣͖͈̺ͨ́̽͝�̹͇̪̅͝");
+		//6
+		alert("ERRO NA DESCOMPACTAÇÃO DO QUIZ");
+		alert("REPARANDO EXPERIMENTO CODINOME DRAC0...");
+		alert("EXPERIMENTO REPARADO");
+		var p6=prompt("SEXTA PERGUNTA:\nPor qual número devemos multiplicar o número 0,75 de modo que a raiz quadrada do produto obtido seja igual a 45?\na)2700\nb)2800\nc)3000\nd)3200");
+		if(p6=='2700' || p6=='a' || p6=='A')
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		//7
+        var p7=prompt("SETIMA PERGUNTA:\n(10*(√36))-34+2\na)22\nb)28\nc)32\nd)34");
+		if(p7=='28' || p7== 'b' || p7== 'B')
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		//8
+        var p8=prompt("OITAVA PERGUNTA:\nA soma da idade de duas irmãs é 33 anos. Sabendo que uma tem o dobro da idade da outra, quantos anos a irmã mais velha tem?\na)22\nb)28\nc)32\nd)34");
+		if(p8=='22' || p8== 'a' || p8== 'A')
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		//9
+        var p9=prompt("NONA PERGUNTA:\nQual das seguintes opções representa o número PI:\na)3.1415\nb)3.1314\nc)3.1425\nd)3.1451");
+		if(p9=='3.1415' || p9== 'a' || p9== 'A')
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		//10
+		alert("Ultima pergunta!!!");
+		alert("V̶̢̡̡̛̛̥̯̝̪͕͕̼͍̺̪͇̝͓̦̖̳͍̭̫͇̙̺̖̝̜̠͇̺̞͈̤̤̟̬͎̩͔̱͚̣̣͙͈̱̿̄͑̈́̊͂̔͗̎͌̐̈́̊̆̄͋̋̀̐̾̃̏͛̂̈́̚͝͝ͅƠ̸̧̼̠̖̗̖̝̯͎̩̮̟̗̮̪̥̞̤̈́̌͐̓̀̈͌́͐̆̄͋͆́̔̀̾̿̑̌̇̊͗̄̌̈͋̅̌̑̋̇̈͊͋̌̈̈́͗̂̊̓̓̕͘̕̕̚͝C̶̛͇̖̖͙̱̘̣̋̌̓̋̉̈́̔̈̑̉͌̍́͌̐͗͛̇̌͋̃͌̓̊̽̉͘͘̕͝͠Ẹ̶̡̨̛̝̻̺̬̯̙̪͓͓̟̘͗̈́̑̽͂̅̀͐̾͗͒͌͘ ̷̧̡̛̭̮̩̦̝̩̜͖̱̖͍̣̻̫͕̱̤͉̖̠̪̹̹̲̣̣͖͙̦̯̺͉̟͙̭͔̰̙͉̲̗͙̭̯̪̅̓̋̾͂̆̀̃́͌̒͊̅́̋̌̏͗͗̈́͊́͆̂͑̊̄͊̓͊͑̍̒͆͆͆̑͗̏̔̚͜͜͝͝Ş̸̫̳̩̼͗͊͐̋͗̀ͅE̵̢̨̨̛̛̻̤̪̼̻̭̙͎̼͈͉̠͉͓̠̳̘͔̠͔̗̺̥͎̹͍̭͙̖͕̫̣̣͙̙̦̭̰̰̠̮̖̣͐̑̽̄̏͐̆́̋͒̑̈͂͛͐̄͑̿̿̒̇̉̊̑͋͒̈́͆̃̍̓̂̕̕͜͠͝͠ͅ ̶̢̧̜̲̘͙̞͕̭̥̠̞͍̯͔͎̩̮̮͚̟͖̇̉͋̅́̇͆̏̍̆́̽̽̊̏͌͗̓̂͛̾̾̀͛̏̊̄̀͊͐͒͗͐̀̕͘͝͠͝͝͝ͅA̴̡̛͍̟͙͓̟͖̱̪̗̲̼͔̯͎̟̺̜͇̥͚͇͎̗̲̝̜͔̦̯̝̖͕͈̝̪̅̀͊̒͆̂́͒͆͋́͆̒̀̍̉͑̅̈́͗͋͒̎́̿̀͊́́͊͛̇͗͊̑̒̚̚̚͘͝͠͝Ṙ̶̛͓̹̠̲͚̱̥̬̲̣̞͈̱̔́̋̿̇̔̓͗̅̀̅͑̉͗̂͗̐̀̆́̽̒̒̀̊̽̈́̋̏͆̽͒̋̇̈́̑̉̚̕͝͠ͅŖ̴̧̰̣̙̜͖̩͎͉͎̠͉̟͙̫̥̼̙̜̳̟̇̅̈́̽͂͂͒͗̄͌̌́̀̕͘͠͝Ę̷̧̢̧̡̠̖͎͍̬͙̗̤̻̮̩̣̮̦̤͉̥͉͙̭͚̣͔͔͈͍̞̠̮͖͍͚͓͔̲͕͕͕̟̲̣̱͔́͜͝P̸̪̮͕̝̠̤̪̬̻̳͓͇̗̓͒̉͆̋͒̅̈́̋̀̆̓̋̎͗̔͒̈́͒̒͂̎̂̉͐̾̑̋̄̚̕͠͠͠Ê̸̡̛͕̣̪͚̬̘̫̰̺̼̱̺̼̯̮͚̱̰̠̞̙̯̖͐̾̈́̈́̎̌̆̃͐̑͑̀̈́̽̊̃͆̃͒̔̒͂͗̿̏͐͗̽̈̊̂̕͜͝Ń̸̜͕̟͙͚̘͉͇̝͐̀̽̔̉̐̒̕Ḏ̷̡̢̡̨̧̡̢͉̲̰̰̘͎̯̺͎͇̈͛̒̅͂̓̏̌͗̄̈́̕̚͝E̷̛̛̞̫͚͍̰̳̦̼̦̰̯̻̖̭͚̭̬̬͎͕͒̈́̿̄̿̈́̈́́̈́̈́̓̎̉͆̌͜ͅ?̶̧̧̢̲͖̱̦̲̫̜̮̱͇͕͕̩̮͈͎̻͎̞̆̎̾́͐̇͛̀͑̽̈́̽̅̋̌͐̇̀̋́͂̍͘͘̕͝͠͝͝͠͝ͅ");
+		alert("⠀⠀⠀⠀⠀⠀⠀⢠⠣⡑⡕⡱⡸⡀⡢⡂⢨⠀⡌⠀⠀ELE SABE⠀⠀⠀⡕⢅⠕⢘⢜⠰⣱⢱⢱⢕⢵⠰⡱⡱⢘⡄⡎⠌⡀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠱⡸⡸⡨⢸⢸⢈⢮⡪⣣⣣⡣⡇⣫⡺⡸⡜⡎⡢⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⢱⢱⠵⢹⢸⢼⡐⡵⣝⢮⢖⢯⡪⡲⡝⠕⣝⢮⢪⢀⠀⠀⠀⠀ ⠀⠀⠀⠀⢀⠂⡮⠁⠐⠀⡀⡀⠑⢝⢮⣳⣫⢳⡙⠐⠀⡠⡀⠀⠑⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀ ⠀     ⠀⠀⢠⠣⠐⠀ ⭕  ⠀⠀⢪⢺⣪⢣⠀⡀ ⭕     .⠈⡈⠀⡀⠀⠀ ⠀⠀⠀⠀⠐⡝⣕⢄⡀⠑⢙⠉⠁⡠⡣⢯⡪⣇⢇⢀⠀⠡⠁⠁⡠⡢⠡⠀⠀⠀ ⠀⠀⠀⠀⠀⢑⢕⢧⣣⢐⡄⣄⡍⡎⡮⣳⢽⡸⡸⡊⣧⣢⠀⣕⠜⡌⠌⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠌⡪⡪⠳⣝⢞⡆⡇⡣⡯⣞⢜⡜⡄⡧⡗⡇⠣⡃⡂⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠨⢊⢜⢜⣝⣪⢪⠌⢩⢪⢃⢱⣱⢹⢪⢪⠊⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠐⠡⡑⠜⢎⢗⢕⢘⢜⢜⢜⠜⠕⠡⠡⡈⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⡢⢀⠈⠨⣂⡐⢅⢕⢐⠁⠡⠡⢁⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⠢⠀⡀⡐⡍⢪⢘⠀⠀⠡⡑⡀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠨⢂⠀⠌⠘⢜⠘⠀⢌⠰⡈⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢑⢸⢌⢖⢠⢀⠪⡂");
+		alert("Preparado?");
+        var p10=prompt("1+1?\na)2\nb)3\nc)4\nd)5");
+		if(p10=='2' || p10== 'a' || p10== 'A')
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		if (res>=6)
+		{//FIM MAT BOM
+		alert("Parabéns! você acerto " +res+ "/10");
+		alert("aqui esta o seu premio!!!\n\n\n\nEXPE0");
+		alert("Bom trabalho!");
+		alert("'E...'");
+		}else 
+		{//FIM MAT RUIM
+		alert(res+ "/10?");
+		alert("Você falhou no experimento") ;
+		alert("Experimentos abaixo da media não precisam da VERDADE");
+		alert("Logo em seguida o chão se abre diante dos seus olhos, sua última visão é de algo te olhando.");
+		alert("<•>");
+		}
+	//PROGRAMACAO
+	}else if (tema=="programacao" || tema=="b" || tema=="Programacao" || tema=="Programação" || tema=="programação")
+	{
+		//1
+		alert("Iniciando quiz de programção...");
+		alert("Você tera que achar o erro em cada um dos codigos");
+		var p1=prompt("PRIMEIRO CÓDIGO:\nalert('hello world'))\na)Parenteses\nb)Sintaxe\nc)Aspas\nd)Sinais");
+		if (p1=="parenteses" || p1=="a" || p1=="A" || p1=="Parenteses")
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		//2
+		var p2=prompt("SEGUNDO CÓDIGO:\nvar ex=prompt(Ele já sabe?')\na)Parenteses\nb)Sintaxe\nc)Aspas\nd)Sinais");
+		if (p2=='aspas' || p2=='c' || p2=='C' || p2=='Aspas')
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		//3
+		var p3=prompt("TERCEIRO CÓDIGO:\nif (2)\na)Parenteses\nb)Sintaxe\nc)Aspas\nd)Sinais");
+		if (p3=='sintaxe' || p3=='b' || p3=='b' || p3=='Sintaxe')
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		//4
+		var p4=prompt("QUARTO CÓDIGO:\nmath.random()\na)Parenteses\nb)Sintaxe\nc)Aspas\nd)Sinais");
+		if (p4=='Sintaxe' || p4=='b' || p4=='b' || p4=='sintaxe')
+		{
+			alert("resposta .̴̨̢̢̧̢̛̳̰͔̯͚̼̪̫̥̲̞̣͍͔̖̉͛̑̔̈́̉̊̀̏̎̿͋͐̽͗̍͊͘͜͝͝͠ͅ.̶̧̢̨̨̧̮͇̳̼͖̬̱̙̙̦̬͎̫̠͍͖͎̘͎̥̱̬̯̮͍̥̘̞̭͇̻̟̹̮̝̜̗̤̰̲̗͈̈́̿͊̀̌͌͛̅̀̈̏̄̾͋̕͜͝͝ͅ.̴̢̨͉̬͙͈̗̰͎̣̰̜͎̜̯͇̭͕̤̭͖̣͚̙̼͆̈̾͌̀̊̿́̏̈̿̌̂̊̔͊̈͊̿̔́̏͂͜.̵̧̨̧̡͚̙͕̙̠̳̤̱͎̱̯͔̰̽̈̌̀͗́̃̀̅̑͌͗̎̂͒̾͛͋͠.̵̧̢̨̢̡̨̘̦̤̼̤̝͙̺̪̞̼̖͙̗̭͈̣͖̞̣̦͇̈́͊́̏̓̑́̏͛̋̆͛́͑̋̕͜͜͝.̵̨̡̝̳̙͙͇̹̮̗͍͖͇̱̓̀̄̏̎̾̓͂̋͗̓̐͌̋̊̿̓̑̍́̾ͅ.̴̧̛̛̤̯̞̠̥͕̺̖̞̼̟͈̣̲͖͖̫͙͔̠͚͒̈́̓̽͐̇̇̇͑͋̈́̍͋̂̒͛͛͘.̶̨̢̯̹̤̗̯̜͙̱̪̲̺̳̝̼̱̱̌͗̂̎̈́͂͆̊̀̅̈̋͂̆̀̉̉͘̕̚̚.̸̢̻̠͓͕̰̺̍́́̓̂̽́͌͊̀̇̑̂̈̓̑̅̅̀̂̓̓͗̂̀̈́͊͋̎͝͝.̴̧̛̛͎̙̻̲̝̪̼͓͎̖̖̮͍̲͕̬̯̱̝̻̥̭̝̥̤̳̾̉͒̿͛̄͑̇́̄̀̐̈̓̽̄͘̕͘͘͜͝͝.̵̢̡̢̡̨̘͕̼̦̫͕̹͓̙̟͓͈̱̟̻̦̪͙͍̟͍͇͓͕̥͎̘̟̘̜͈̘̜̣̺͙̟͚̲̮̠̈́́͋̀̈́͑̓̈͋́͜͜.̵̧̨̙̣̙̙͕̦̬̬̫̼͕͕̤̙̗̥̦̙͍͈̩̦̘̖̣̜͓̙̗̟̤̥̪̩̜̩̆͆͐̉̿͊̂̈̅̀̾̋̌̈́̀͊͑̓͛̇̈́͌͗̔͋͒̎̌̾͋̀̅̄̇̒̒͂́͗̋́͂̈́̅̍͊̚͘͜͝.̶̡̣̲̹̦̰̪̫͙̙̞̦̞̥̣̦̞̙̻̥̥̣͈̬̀͋͑̿̌̌̄͆͑̂͐́͋̃̀̅͌͛́̄̈́́͐́̈́̍̒̔̀͝͠ͅ.̸̛̆͌̈́͋̈́̕͜.̷̛̬̠͖͔͈̻̂̃̈͗̓̑̃̄̅̀̂̐̆͆̌̉͐̔͋͘.̷̢̘̱̣̲̣̹͔̼̝̺̩͚̱̞̰̦͎̥͚̙̤̪̘̱̰͕͇͖̝̫͓̽̄̉͆̓̌͜ͅ");
+			alert("Ainda não");
+			alert("<•>");
+			res=res+1;
+		}else
+		{
+			alert("resposta .̴̨̢̢̧̢̛̳̰͔̯͚̼̪̫̥̲̞̣͍͔̖̉͛̑̔̈́̉̊̀̏̎̿͋͐̽͗̍͊͘͜͝͝͠ͅ.̶̧̢̨̨̧̮͇̳̼͖̬̱̙̙̦̬͎̫̠͍͖͎̘͎̥̱̬̯̮͍̥̘̞̭͇̻̟̹̮̝̜̗̤̰̲̗͈̈́̿͊̀̌͌͛̅̀̈̏̄̾͋̕͜͝͝ͅ.̴̢̨͉̬͙͈̗̰͎̣̰̜͎̜̯͇̭͕̤̭͖̣͚̙̼͆̈̾͌̀̊̿́̏̈̿̌̂̊̔͊̈͊̿̔́̏͂͜.̵̧̨̧̡͚̙͕̙̠̳̤̱͎̱̯͔̰̽̈̌̀͗́̃̀̅̑͌͗̎̂͒̾͛͋͠.̵̧̢̨̢̡̨̘̦̤̼̤̝͙̺̪̞̼̖͙̗̭͈̣͖̞̣̦͇̈́͊́̏̓̑́̏͛̋̆͛́͑̋̕͜͜͝.̵̨̡̝̳̙͙͇̹̮̗͍͖͇̱̓̀̄̏̎̾̓͂̋͗̓̐͌̋̊̿̓̑̍́̾ͅ.̴̧̛̛̤̯̞̠̥͕̺̖̞̼̟͈̣̲͖͖̫͙͔̠͚͒̈́̓̽͐̇̇̇͑͋̈́̍͋̂̒͛͛͘.̶̨̢̯̹̤̗̯̜͙̱̪̲̺̳̝̼̱̱̌͗̂̎̈́͂͆̊̀̅̈̋͂̆̀̉̉͘̕̚̚.̸̢̻̠͓͕̰̺̍́́̓̂̽́͌͊̀̇̑̂̈̓̑̅̅̀̂̓̓͗̂̀̈́͊͋̎͝͝.̴̧̛̛͎̙̻̲̝̪̼͓͎̖̖̮͍̲͕̬̯̱̝̻̥̭̝̥̤̳̾̉͒̿͛̄͑̇́̄̀̐̈̓̽̄͘̕͘͘͜͝͝.̵̢̡̢̡̨̘͕̼̦̫͕̹͓̙̟͓͈̱̟̻̦̪͙͍̟͍͇͓͕̥͎̘̟̘̜͈̘̜̣̺͙̟͚̲̮̠̈́́͋̀̈́͑̓̈͋́͜͜.̵̧̨̙̣̙̙͕̦̬̬̫̼͕͕̤̙̗̥̦̙͍͈̩̦̘̖̣̜͓̙̗̟̤̥̪̩̜̩̆͆͐̉̿͊̂̈̅̀̾̋̌̈́̀͊͑̓͛̇̈́͌͗̔͋͒̎̌̾͋̀̅̄̇̒̒͂́͗̋́͂̈́̅̍͊̚͘͜͝.̶̡̣̲̹̦̰̪̫͙̙̞̦̞̥̣̦̞̙̻̥̥̣͈̬̀͋͑̿̌̌̄͆͑̂͐́͋̃̀̅͌͛́̄̈́́͐́̈́̍̒̔̀͝͠ͅ.̸̛̆͌̈́͋̈́̕͜.̷̛̬̠͖͔͈̻̂̃̈͗̓̑̃̄̅̀̂̐̆͆̌̉͐̔͋͘.̷̢̘̱̣̲̣̹͔̼̝̺̩͚̱̞̰̦͎̥͚̙̤̪̘̱̰͕͇͖̝̫͓̽̄̉͆̓̌͜ͅ");
+			alert("Ainda não");
+			alert("<•>");
+		}
+		//5
+		var p5=prompt("QUINTO CÓDIGO:\nvar PASSWORD=number(prompt('EXPERIMENTO DRAC0?')\na)Parenteses\nb)Sintaxe\nc)Aspas\nd)Sinais");
+		if (p5=='parenteses' || p5=='a' || p5=='A' || p5=='Parenteses')
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		//ARG
+		alert("E̸̵⃨̦͓̾͘͜R̸̸⃨̺̺͔̈́͐̒R̵̸⃨͔̙͌͐͘͜Ö̸̵⃨̼͕́͆͌͜R̵̸⃨͙̺͔̔̀̕");
+		alert("Erro na execução do quiz, reiniciando servidor...");
+		var code=prompt("Informe a senha de administrador");
+		if(code=="DRAC0" || code=="drac0" || code=="EXPERIMENTO DRAC0" || code=="experimento drac0")
+		{
+			alert("Olá ⬛⬛⬛, Bem-vindo de volta!");
+			var codeR=prompt("Qual dos seguintes tópicos você gostaria de ler?\nEXPERIMENTO DRAC0\n*DADOS EXPURGADOS*\n*DADOS EXPURGADOS*");
+			if(codeR=="EXPERIMENTO DRAC0" || codeR=="DRAC0" || codeR=="experimento DRAC0" || codeR=="drac0")
+			{
+				alert("Iniciando Tópico...");
+				alert("INFORMAÇÕES DO EXPERIMENTO:\nSTATUS:EM ANDAMENTO\nESPÉCIMES:32\nÁREA DE AÇÃO.:37°06'57.5S 12°17'52.1W\nESTADO DO ESPÉCIME 0:DESCONHECIDO");
+				alert("NOVA MENSAGEM");
+				var mens=prompt("Visualizar mensagem?");
+				if (mens=='sim' || mens=='Sim' || mens=='SIM' || mens=='Ss' || mens=='ss' || mens=='S' || mens=='s')
+				{
+					alert("Olá ⬛⬛⬛⬛⬛, Nós não sabemos do estado do espécime 0, Todas as buscas falharam até o momento. O espécime zero é um risco a existência dessa instalação, não podemos permitir que ele se encontre com o ⬛⬛.\nASS:⬛⬛⬛⬛⬛⬛");
+					alert("Olá ⬛⬛⬛⬛⬛⬛, É de extrema importancia que o espécime 0 seja contido, precisamos executar essa ação em total sigilo. Caso o ⬛⬛⬛ descubra, Sera um problema para todos nós.\nASS:⬛⬛⬛⬛⬛")
+					alert("Erro na verificação de permissões de administrador")
+					alert("VOLTANDO AO QUIZ...");
+				}else 
+				{
+					alert("Falha ao conectar-se, voltando ao quiz...");
+				}
+			}else 
+			{
+				alert("Falha ao iniciar tópico, Voltando ao quiz...");
+			}
+		}else
+		{
+			alert("Senha incorreta, retornando ao quiz...");
+		}
+		//6
+		var p6=prompt("SEXTO CÓDIGO:\nAlert('Provavelmente sim?')\na)Parenteses\nb)Sintaxe\nc)Aspas\nd)Sinais");
+		if (p6=='sintaxe' || p6=='b' || p6=='B' || p6=='Sintaxe')
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		//7
+		var p7=prompt("SETIMO CÓDIGO:\nalert('Olá' ⬛⬛⬛⬛⬛')\na)Parenteses\nb)Sintaxe\nc)Aspas\nd)Sinais");
+		if (p7=='aspas' || p7=='c' || p7=='C' || p7=='Aspas')
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		//8
+		var p8=prompt("OITAVO CÓDIGO:\nif(result = '3' || result = '3')\na)Parenteses\nb)Sintaxe\nc)Aspas\nd)Sinais");
+		if (p8=='Sinais' || p8=='d' || p8=='D' || p8=='sinais')
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		//9
+		var p9=prompt("NONO CÓDIGO:\np2m=Number(prompt('Qual é o resultado de +p2m+ 9x5-10?'))\na)Parenteses\nb)Sintaxe\nc)Aspas\nd)Sinais");
+		if (p9=='aspas' || p9=='c' || p9=='C' || p9=='Aspas')
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		//10
+		alert("Ultimo código, parabéns!!");
+		alert("Uma fácil para terminar");
+		var p10=prompt("if (p2==sim)\na)Parenteses\nb)Sintaxe\nc)Aspas\nd)Sinais");
+		if (p10=='aspas' || p2=='c' || p2=='C' || p10=='Aspas')
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		if (res>=6)
+		{
+			alert(res+ "/10!");
+			alert("Parabéns pelo bom trabalho! Você esta um passo da verdade");
+			alert("Aqui esta seu prêmio!!\n\n\n\nEXPE0");
+			alert("Estou te aguardando");
+			alert("'...3...'");
+		}else if (res<=5)
+		{
+			alert(res+ "/10?");
+			alert("Você falhou no teste");
+			alert("Espécimes abaixo da media não precisam da VERDADE");
+			alert("Logo em seguida o chão se abre diante dos seus olhos, sua última visão é de algo te olhando.");
+			alert("<•>");
+		}
+	}//IF
+	else if (tema=="if" || tema=="IF" || tema=="c" || tema=="C")
+	{	//1
+		alert("Iniciando quiz do IF...");
+		var p1=prompt("PRIMEIRA PERGUNTA:\nQuando o projeto da fundação do IF foi aprovado?\na)29/12/2008\nb)26/12/2008\nc)03/01/2009\nd)13/01/2009");
+		if(p1=="a" || p1=="A" || p1=="29/12/2008")
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}//2
+		var p2=prompt("SEGUNDA PERGUNTA:\nQual o nome completo do IF?\na)Instituto Federal de Educação, Quimica e Desenvolvimento\nb)Instituto Federal de Aprendizado, Quimica e Tecnologia\nc)Instituto Federal de Aprendizado, Ciência e Computação\nd)Instituto Federal de Educação, Ciência e Tecnologia");
+		if(p2=="d" || p2=="D" || p2=="Instituto Federal de Educação, Ciência e Tecnologia")
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}//3
+		var p3=prompt("TERCEIRA PERGUNTA:\nQual o lema do IF?\na)Ensino superior, avançado e de qualidade\nb)Ensino público, gratuito e de qualidade\nc)Ensino público, avançado e de aprendizado\nd)Ensino superior, gratuito e de qualidade");
+		if(p3=="b" || p3=="B" || p3=="Ensino público, gratuito e de qualidade")
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		var p4=prompt("QUARTA PERGUNTA:\nQuantos institutos federais existem no Brasil?\na)36\nb)38\nc)40\nd)42");
+		if(p4=="b" || p4=="B" || p4=="38")
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		var p5=prompt("QUINTA PERGUNTA:\nQual era o antigo nome do Campus Rio Grande?\na)Colégio Superior Computacional\nb)Ensino Técnico Fundamental\nc)Colégio Técnico Industrial\nd)Colégio Superior Industrial");
+		if(p5=="c" || p5=="C" || p5=="Colégio Técnico Industrial")
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		var p666=prompt("SEX̷̧̢̡̡͎̙̠̮̘̩͙͇̣̰̜̳̘̭̱̫͍̲̟̪͙͎̦̩̬͙̠̙̮̣͙͈̺̱̱̖̭̣̘́̓̌͗̋̃͆̐̄̈͋͛̅́̍͒͗̑̿̈́̅̊̃͑́́̕X̶̛̛̛̯̲̙̗̦͓̥̣̫̟̩͙̯͍̟̩̠̩͖̺̯̊̓͆̂̓̈́͂͛͂̓̏͛͆̃͊̓́͌̄̾͑̽̓̈́̚̚͘̕͜͜͜͠͝͝͠X̷̛̱̭̼͇͙̯̜̣̬̭̦̫̞͆͐̒͌̈̐̎͑̕͝Ẋ̴̨̛͖͉̝̘̖͉̫͈̘̘̘̠̟͒̍̌̿͑̆̉̔͊̋̅̊̅͊̿̎̍̓̆̒͗̄̀̍̾́͐͂̅̅̒̍̊̓̅̌̇͂͌̚̕͝͠͝͝͝͝ͅX̴̡͈͉͈̠͈͎̮̟͇̯̤̟̼̞̺̝̭̥̻̦̯́͆̓̀̊̋͘X̷̨̧̡̩̣̠̲̟̙͙͎̥̙̌̐́̿̆̔͂̿̿͌̾̆̈̏̽̂͆̔̾͆̍̿́͊͊͊̒͂̓͊̌̇͌̀͊̚̚̚͠͝͝͝͝X̸̧̡̧̡̨͓̙̝̘͈͎͍̟̗̲̙̭̮̬͙̠̥̙̬͓̖̰̳͙͕̮̱̓́͆́̍̇͗͗̔ͅX̸̧̧̢̡̧̨̛̞̼͔͎͉̭̬̟͎̗̰̩̣͚̘͈̠̯͔̹͍̙͕͖̼͍̹̭̱̫͚̜͎̺̅͐̄̿̍̏̈̒̍̈́̓̎̈́͗̒̎̀̇̄̆̑͗̏̆̎͑̇̎̏͘̚̚̕͘͜͜͝͝͝͝͝͝ͅͅͅX̴̡̨̢̛̳̣̙̱̬͎̺͈̜̭̲̫͈̦̩̼̤̺͓̻̽̒̍̃̓̀̈͗͗̈̌͗́́̔̿͋̍̉͒̍̌̓̈́̀̐̎͐͂̚̕͠͝X̴̢̖͇̭͉̺̟͚͍͍̠̜̭̲̝̠͛̾̍̏̏͆̈́̒̃̀̏͒̕͘͘͝ͅX̵̢̡̢̡̧̨̨̛̲̝̹̰̪͕͚̜̮̪͈̬͈͙̝̠͇̰̫̥̹̮̝̗̞͒̃̏̏͂̑͗̍̃͑͒̑̈́̾͑̽̇̇̔͆̆͋͊͐̃͊̃͘͜͠͝X̸̻́̾̃̈́̀̆͌̋̈́̒̌͆̎̆͛̀̈́̀̕͠X̸̧̢̢̧̧̞̩͕͔͔͙̭̼̰͖̫̩̱̤̳̞̜̞̜̤̙́̎̐ͅẌ̷̡̺͉͍͎̼̻̝͚̫̬̰͇̯̯͍̜͚̣̳͚̲̜̯̦́̓̀̆͗̿̎͂͆̈́́̑͊̅͂͊̄͗̾͐̈̇̈́͌͘̚͜͝X̶̢̨̧̼͍̲̥͇̤̙̥̺̠̠̞̩̝͌̑̾̒̽̀̐́̄̎́̂̌̕X̶͔̫̯͖̹͇͇̹͍̅̍̚X̷̛̛͍͔̓́̇̄̿̐̆̏́͆͂̇͗͛͊͌͌͘̕X̷̧̢̡̧̛̙̯̺̳͍̰̖̱̦̩͇̘͚͔̬̞̹̦̹̩̰̰̹̟͎̑̇͆̽̽͐́͗̒́̾̓͒̒͒͛̽̈́̑͂͌͊̄̈́̿͛͊̐́̈́̆̋̆̒͊͘̕͘̕͝͠͠͠͝ͅX̵̡̡̡̡͔̼͔͙̘͙̻̠͈̘̞̺̪̜͎͇͕̦͙͕͙̬͎̟̱̠̃̆̍̽̊̈́͆͒͐̎͒̃̓͋̿́͂̇͂̄̈́̚̚̚͜͠X̶̧̧̢̡̨̢̛̛̛̯͙̯̬̪̝͚̼̝͖̬̯̪̖̝͕͙̬̺̟̜̣͎̪̤̲̙̦̭̲̘̙͔̫̺͇̟͇͕̥̔̇̄̃͛͛͑̆̇͐͐̅͐́̑͆̊́̋̔́̏̀̾̑̐͛͗̈́̐̊͊͋̎͛̚̚̕͠͠ͅͅX̴̛̛̭̖̰̤͛̒̎̍͑͊̎̈́̿̒͑͆͌̃̏͌̿̓̀͒̄̌̒̇̌́̾͌̚͜͝͝͝͝ͅX̸̢̨̨̧͎̙͈͎̫͕̭̪̤͍̲̞͍͉̲̺̱̞̊̐̓́͌̈̑̾̉̎̋̋́̄̔̑̀͛̍̾͂̑͂̂̋̚͘Ẍ̶̡̧̡̛̪͈̥̰̺̖̟̬͍̲͚͖̘̖̖͎̰̘̥̙͔̻̝̳͔͇̺̰́͑͛̇͋͑̌͛̉̓̇̄̈́͌͑̋͊̄̈̒̍̉͆͛̌̾̑̒̂̓͝X̸̡͕̦̒̂̈́̈́͑̀̈́̄͛͝X̸̧̨̛̛̠̳̱͓̗̉́͛̕X̸̛̭̙͕͍͔̞͊̋̒̆̓̈͂́͒͊́̈́͛̊̿͊̇̾̏͋͂͋̆̇͌̍̄̆̄̈́̐̑͂̌̚̕͘͘͝X̷̢̧̲̞̤͎̘͇̦͚͔̤̝̞͔̯͚̗̯͊ͅX̶̢̡̡̧̢̛͍̺͇͓̦̙̣̫̻̖̫̪̙̳̖̝̰̥̻͖̱̪̦̖̦̮̞̺̤̥͗͐̽̾̈́̾͒̈́̀͊̀̎̎̓͋͆̾̃̋͒́̉͛̊͑̾̀͌̅͋̎̓͒̄̿̓̓͑͂̅̆̆̕̚͜͝͝͝Ẍ̴̢̢̫̳̦̥͉̫̟̞͚͕̖̯̻̺̺͈̪̻̦͕͚̱́̒̐͑̿́̽͛́͗̿̍͋̇̈́͌͒̂̍̄̈́͋̈̌̚̕͘͜͜͜͝͝͝Ẋ̶̢̡͔͚͇̥̯̭̗̥̹͇̗̯̬̱̙̀͗͆͊́͂̆̅̒͂̌͂́̀̈́͌́͑͐̈́̓͗͊̉̑́̎̂̀̀̆͛̊͘̚͘̕̕͝͠Ẋ̸̨̭̲͇̗̪͎̩̰̞̳̣̦̝͎͉̤͚̦͖̗̠̗̜͙͙͇̯̬͖̲̥͎̥̬͕̜̣̻̉͝ͅX̸̨̞̼̘̹̲̘̋̑͗X̵̡̛̛̮̜͖͓͈̫͈̖̯̪͍̥̥͎̫̙̙̰̰͍̤̩͔̤͇̪̰̖̪̼̻̱̻̰̗̮͂͗̐̓̍̅̌͂̾͑̌̽́͑͆̄̎͌̽̆͂͌̀̎̈́͑͌̎̂̕̕͜ͅẌ̶̢̞̘̟̻͕̭̟́͜͜X̵̡̡̛͈̺̳̤̬̙͚͚̔́̽͒̓̑̂͛̍̿̆̎̃̈́̈̌̔̀̄̀̎̓͗̓̇͒͂̏̋̉̌͗͌̈́͆͊͒̆̿̕͠͝͠X̶̧̜̙͉̜͙̘̪̤͙̤̣͓͍̟͓͇̅͒̎͗͒̽͂̂̊͛̒̒̿̊͛̀̄̒́͒̆͐̏̊͗̏̀̓̒̈̆̅̀̀̕̚̚͘̕̕̚̚͜͝͝͠Ẍ̷̡̡̡̭̮̼̘̦͈̣̝̳͖̠͌͛̇̓̃̄̀̕͝X̸̢̢̡̡̛̛̟̺̤̻͓͖̱̦̦̝̦̹̺̻̝͕̮̒̿̒̄͊́̄̾̍́͛̆̈́̾̔̅͆̌̐̐̅̌̿̈̿́̋̔̀̉̕͘͜͝Ẋ̷̨̡̡̧̛͎̣͍̭̗̗̻̥̠͔̘̻̯̻͕̪̲̟̜͈̊̃̀̀̉̀̂͐̀́͜͜͝X̶̝̭͙̯̬̥̘̼͎̯͖̬͖̮̺̮̟̖̙̱͎̣̘̯̙͇͓̦̬̤̣͓̟̦͖͎̰̞̬̼̦̳̻̙̲̦̏̌́̽̋͂̒̈́̀̌̾̐́͘̚͜ͅͅX̵͈̪͍̫̱̼̟̹̣̫̭͇͎̘̼̮͙̰̪̮̠̠̠̆̽͜ͅͅẌ̴̘͖̟̳̺̤̼̹͕̦̣́̉̈́̉̒̈́̂͋̽͂͛̇͂́̇͂͗̇̓́̃͂̒͂͠͝͠X̵̧̧̢̛̛͖͍̺̮̩̜̹̮̱̗̟̰̮̮̻͈̭̲̻͓͔̤͈͙̬̜̠̘̠̬̺̞̣̩̝͔͈̱̽͂͑̊͒́̀̀̄̀̉̒̾̂̍̀̀̀͛̆́̃̇̊̾̎͆̅̓̏͊͌̅͂́̐̒̂̉̕̕̕͘͘̕͠͝͝X̴̛̛̠̜͍̲̩̜͚͍̝̝͉̜̤̜̫̬͙̥̞̯͉̲̤̬̲̙̪̀͊͒̓̉̑̅̓͛̈́͆́̊̈̽̽̀̈̀̇̓̽̊̀͑̅̌́͗͗͗̓̑̐̓̑͌͒̓̂̂̀̊̕͠X̷̢̧̨͖̹͕̫̰̼̦̥̰̘͇͇͎̖̙͔̞̲̹͒͗̍͌̿̃̊̇̏͒̋́͆̿̑̈́̇̍̈́͒̈́́͛̌̚͘͘͠͝ͅX̵̢̧̨̡̡͚͉͓̠̝̳͖̘̮͇͎̫̠͎̮̗́́̿̌̅͐͊̒̂́̿̀̔̃̍̓̓̆̒̈́̿̍̀͑͌̇̂͐͊̆̈́̐̎̓̐̓͂́͆̓̕͝͝͠X̸̛́̔̍̈̀̋̀̎̆̏̃̃̎͌͒̿̈́̄̓̚̕͘̚͜X̷̨̡̧̞̠̣̫̫͓̟̩͇̠͍͙̤̘̼̦͔͍͉̠͉̥̥̠̠̦̜̭̫̦̯̹̹̥̊͛͜͠ͅͅX̸̨̡̡̧̞͇̯̪̩̣̰̘̲͔̜̥͍͚̮͍̫̟͕͈͙̺̼̰̺̘͙̩͍̜̹̲̥̪̺̱͈̬̣͇͈͈̝́̆̂͛̌̑͒̽͋͑̽͊̈̀͐͂̍̇̔̆̒̀̎̓̒̏͒̄̓̽̃̄͐̉͒̇̽͆̊̄͛̕̕͜͜͝͝͠͝͝͝͝ͅX̵̡̧̤͖̞͈̪̤͖̖̜͍̻̥͕̝̺͍̼̹̤̘̳̫̯̝͇̗̞̱̦̹̤̱͉̠̙̹͚͓̘̺͉̖̰͓͚̋̈́̔͆͛͑̒̎́̔̉͋̍̽̐͂̈̈̾̕͘̕͜͝͝X̴͕͔̆͆̿́̊͐̌̄̽͂̍͗͗̃̄̕Ẍ̵̢̞̱̻͓̱̻̻̠͉̝̭̲̙̣̞̤̬͓̱̖͎̳̱͈̙͕̤̲̟͍́͜X̶̰̙͔̜̟́̑͊̓͐̇̈́̓̋̃͋͊̽̏͝X̴̛̭̂̑͒͐̅̈̿͊̑̀̋̐X̶̢̜̝̞͙͔̪̪̬̰̜̮̜̘̺̘͔̥͔̄̇̇̉̏̽̆Ẍ̸̡̨̛̰̬̞̼̟̥͍̪̖͓̜̲̰̟̺̣̫̫̰͎͉̻͕͈̙̙͍̩̭͚̻̹̼́̽̔͋̽͐̽̃̔͗̒͗̄̿̍́͂̍̉͂͠X̴̧̛͉̞̦͙̗̤̼̳̀̇́̋̍̑̅̌͂̊̑̄̆̽͊̌̓̅̋̎͛͘̚͝͝͝͝͝X̶̢̛̛̥̣͔͓̲͔̙̪͓͖͇͙̗̯̹̱̯͕̳͎͎̪͕̻̟̥̖̱̦̮͊̓͆̊̓͐́̔̑͂̌̂̕̕͝͝͝X̸̡̛̛̲͇̗̮͍̼͙̗̬̺̝̖̜̬͈̥̘͕̯̖̤̌̈́̀͊̎͒͗̆̉̋͂́̇͑͐͒̓͑͑̀͊̑̏̒͆̄̾̀̒͐̉̏̇̕̚͠");
+		alert("(ERROR) Reiniciando sistema...");
+		alert("NOVA MENSAGEM ENVIADA");
+		var mensagem=prompt("Visualizar mensagem?");
+		if (mensagem=="sim" || mensagem=="SIM")
+		{
+			alert("Abrindo mensagem...");
+			alert("Olá ⬛⬛, Continue fazendo o quiz, caso você seja inteligente o suficiente eu lhe mostrarei a verdade.\nASS: ZERO");
+			alert("Fechando mensagem e voltando ao quiz...");
+		}
+		else
+		{
+			alert("Voltando ao quiz...");
+		}
+		var p6=prompt("SEXTA PERGUNTA:\nSegundo avaliação do Ministério da Educação, qual é o MELHOR Instituto Federal do Brasil?\na)Instituto Federal de Minas Gerais\nb)Instituto Federal do Pará\nc)Instituto Federal de São Paulo\nd)Instituto Federal de Santa Catarina");
+		if(p6=="d" || p6=="D" || p6=="Instituto Federal de Santa Catarina")
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		var p7=prompt("SETIMA PERGUNTA:\nQuantos institutos federais atuam no Rio Grande do Sul?\na)1\nb)2\nc)3\nd)4");
+		if(p7=="c" || p7=="C" || p7=="3")
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		var p8=prompt("OITAVA PERGUNTA:\nQuantos cursos tecnicos o IFRS oferta?\na)menos de 50\nb)100\nc)150\nd)mais de 200");
+		if(p8=="d" || p8=="D" || p8=="Mais de 200" || p8=="mais de 200" || p8=="200")
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		var p9=prompt("NONA PERGUNTA:\nQuantos anos letivos o iFRS possue?\na)1\nb)2\nc)3\nd)4");
+		if(p9=="d" || p9=="D" || p9=="4")
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}
+		var p10=prompt("ULTIMA PERGUNTA:\nQual o atual diretor(a) do IFRS(2022)?\na)Alexandre Jesus da Silva Machado\nb)Carlos Fernandes Júnior\nc)Cleiton Pons Ferreira \nd)Franciane de Lima Coimbra");
+		if(p10=="a" || p10=="A" || p10=="Alexandre Jesus da Silva Machado")
+		{
+			alert("Resposta correta");
+			res=res+1;
+		}else
+		{
+			alert("Resposta incorreta");
+		}	
+		if (res>=6)
+		{
+			alert(res+ "/10!");
+			alert("Parabéns pelo bom trabalho! vocÊ esta um passo da verdade");
+			alert("Aqui esta seu prêmio!!\n\n\n\nEXPE0");
+			alert("'...2'");
+		}else if (res<=5)
+		{
+			alert(res+ "/10?");
+			alert("Você falhou no teste");
+			alert("Espécimes abaixo da media não precisam da VERDADE");
+			alert("Logo em seguida o chão se abre diante dos seus olhos, sua última visão é de algo te olhando.");
+			alert("<•>");
+		}
+	}//RESTRITO
+	else if (tema=="RESTRITO" || tema=="restrito" || tema=="d" || tema=="d)"|| tema=="D" || tema=="*RESTRITO*" || tema=="*restrito*")
+	{
+		var prep=prompt("Por favor informe o código de acesso:");
+		if(prep=="EXPE0" || prep=="expe0")
+		{
+			alert("Então você já está pronto?");
+			alert("Vamos começar te tirando dessa sala, vire a sua direita e vá em frente, assim você deve achar a saída.");
+			var porta=prompt("Ao fazer isso uma porta começa a surgir na sua frente\nAbrir a porta?");
+			if(porta=="Sim" || porta=="sim" || porta=="ss" || porta=="s" || porta=="SIM" || porta=="S" || porta=="SS")
+			{
+				alert('Ao abrir a porta você da de cara em um corredor, à sua frente a um corredor com uma grande porta central nomeada "setor ALPHA", também logo a sua direita a outra porta nomeada "INFORMAÇÕES."');
+				var portaes=prompt("Seguir em frente ou entrar na porta a direita?");
+				if (portaes=="direita" || portaes=="porta da direita" || portaes=="Porta da direita" || portaes=="a direita" || portaes=="Direita" || portaes=="A direita")
+				{	//VARIACOES
+					alert("Você entra na sala de informações, ela parece estranhamente vazia para uma sala do tipo");
+					alert("Você se aproxima da única estante que possuí alguns artigos");
+					var estante=prompt("Qual artigo pegar?\n1)ESPÉCIME 8\n2)ESPÉCIME ZERO\n3)ESPÉCIME 19");
+					if (estante=="espécime 8" || estante=="ESPÉCIME 8" || estante=="1" || estante=="1)" || estante=="8")
+					{
+						alert("Você abre o artigo do espécime 8");
+						alert("ESPÉCIME 8:\nSTATUS:Escondido nas instalações no setor ALPHA\nO ESPÉCIME 8, se caracteriza como um lobo cinzento de grande porte, com possui sentidos altamente aguçados, altamente agressivo, Caso o experimento fique fora de controle sera impossível de contelo\nPONTO FRACO:*DADOS EXPURGADOS*");
+						var estante2=prompt("Qual artigo você gostaria de ler agora?\n1)--------\n2)ESPÉCIME ZERO\n3)ESPÉCIME 19");
+						if (estante2=="espécime 19" || estante2=="ESPÉCIME 19" || estante2=="3" || estante2=="3)" || estante2=="19")
+						{
+							alert("Você abre o artigo do espécime 19");
+							alert("ESPÉCIME 19\nSTATUS:Contido na SALA 2\nO ESPÉCIME 19, se caracteriza como uma criatura escura com uma textura como lodo, possuí um rosto deformado. Não sabemos o que acontece caso alguém entre em contato com o espécime\nPONTO FRACO:Ǹ̸̢̡̨̧̧̛͕͓͓͇͙̪͍̥͖̫̮͍͙̦̥͎̜̬͉͓͙̤͎͙̮͉̞̗̟̺̺̼͓̥̰͚͖͔̦̹̗̪̟̗͎̈̇̃̂̉̈̆̔͌̾̊̐͂̀̆̉̍͌̓̅̊́̋̔̍̾̎̆͐̐̍̕̕̚̕͘͝͠A̵̢̨̡̢̛̝̘͖̯̫̖̥͈̼͖͕͓͖̫̮͇̮̩͉͉͔̬̹̪̻̞͐̆̏̄̊̈́͑̃̉̈́͌̅̋̾̎͗̆̊̀͝͠Ǫ̸̢͉̳̻̭͇͙͙̠̝̺͚̦̪̼̯̦̲̞̘͓͉̗̣̖̰̹̠̗̠̉͐̍̽̃͗̊̐͑̀̓̈́̆̌̔̏̊̈̀̓͊̓̿̅̿̀̀̈́͆̕̕͝͠ ̴̛̛͎̼̮͔̬͇̬̼̠̯̟̞̻̈́̅̋̀̉͐͐͗̆͛̔̑͊͊̿͌̒̂͒͌̽͌̌̕̚̕͜͝͝͠%̷̧̡̢̧̺̰̝̳̺̯͚̱̜̻̯̮͇̤̫̫͎̦̩͚̬͓͉͚͈̙͖̯͙͍̩̟̩̳̲̼̰͉̜̯̺̙̻̜̾̍̅̀̀͒̐͂͆͆͊̊̊́̓̿̓͛͘͝͝͝͠͝ͅ%̷̧̛̪̮͔̬͙͍͖̟̤̲͎͚̥̘̞̙̮͖̣͛̀͂́̃͛̄̈́͆̈́͊͛̆̿̈́̚͝͝͝ͅ#̶̛̱̤͍̽̇͐̊͆́͂͐͋͐́͛͋͗͒̇̉͑͂̅̏͛̃̀̋̔͗̀͘͝͝͠h̸̡̛͉͓͖̟͕̻͇̤̭̊͒̓̇̊̽́̓̅͑̈͊̇̈̓̇̈́̈́̓̓̇̐̏̾̊̒̕͘ ̷̧̛͔̤͈̥̼̝̝̥͒̏̌̓̆͒͒̍̐͊͑̅̓̄̋͌̇͛̈́͑͘͠ͅ<̵̡̢̡̡̛̬̤̻̭̪͎̥̺̻͎͔̘̽̈́̾͂̐̈́̈́̎͌̌̔̈̓̂͋̃̀͂̃̈́͌̆̐̓̆̐̈́̐͒̓̂̍̓̂̋͒̎̒͗̏͊̚͘͝͠•̴̡̡̮̲͕̦̥̯͙̥͍͇͈̣̥̞̘̗̬̱̖̺̜̲͇͍̹͒̀̆̀̋̈̌̃̽͑͒̐͌͜͜͜͝ͅ>̶̢̛̭̻̟̱͈͚͔͖̥̥͉̟̝̺̗̱̂͛͂́̎̂̒̾͌̃͛̀̓̀̾͐́̈́̂͐̓̂͘̕͘̕͜͜͠͝͠ͅͅ");
+							var estante3=prompt("Qual artigo voce gostaria de ler agora?\n--------\n2)ESPÉCIME ZERO\n--------");
+							if (estante3=="espécime zero" || estante3=="ESPÉCIME ZERO" || estante3=="2" || estante3=="2)" || estante3=="ZERO")
+							{
+								alert("Você abre o artigo do espécime <•>");
+								alert("*ARTIGO APAGADO*");
+								alert("Um pequeno papel cai de dentro do artigo");
+								alert("OLÁ, ESTOU TE ESPERANDO\n\nCODE:7231");
+								
+							}
+						}
+						else if (estante2=="espécime zero" || estante2=="ESPÉCIME ZERO" || estante2=="2" || estante2=="2)" || estante2=="ZERO")
+						{
+							alert("Você abre o artigo do espécime <•>");
+							alert("*ARTIGO APAGADO*");
+							alert("Um pequeno papel cai de dentro do artigo");
+							alert("OLÁ, ESTOU TE ESPERANDO\n\nCODE:7231");
+							var estante2=prompt("Qual artigo você gostaria de ler agora?\n--------\n--------\n3)ESPÉCIME 19");
+							if (estante2=="espécime 19" || estante2=="ESPÉCIME 19" || estante2=="3" || estante2=="3)" || estante2=="19")
+							{
+								alert("Você abre o artigo do espécime 19");
+								alert("ESPÉCIME 19\nSTATUS:Contido na SALA 2\nO ESPÉCIME 19, se caracteriza como uma criatura escura com uma textura como lodo, possuí um rosto deformado. Não sabemos o que acontece caso alguém entre em contato com o espécime\nPONTO FRACO:Ǹ̸̢̡̨̧̧̛͕͓͓͇͙̪͍̥͖̫̮͍͙̦̥͎̜̬͉͓͙̤͎͙̮͉̞̗̟̺̺̼͓̥̰͚͖͔̦̹̗̪̟̗͎̈̇̃̂̉̈̆̔͌̾̊̐͂̀̆̉̍͌̓̅̊́̋̔̍̾̎̆͐̐̍̕̕̚̕͘͝͠A̵̢̨̡̢̛̝̘͖̯̫̖̥͈̼͖͕͓͖̫̮͇̮̩͉͉͔̬̹̪̻̞͐̆̏̄̊̈́͑̃̉̈́͌̅̋̾̎͗̆̊̀͝͠Ǫ̸̢͉̳̻̭͇͙͙̠̝̺͚̦̪̼̯̦̲̞̘͓͉̗̣̖̰̹̠̗̠̉͐̍̽̃͗̊̐͑̀̓̈́̆̌̔̏̊̈̀̓͊̓̿̅̿̀̀̈́͆̕̕͝͠ ̴̛̛͎̼̮͔̬͇̬̼̠̯̟̞̻̈́̅̋̀̉͐͐͗̆͛̔̑͊͊̿͌̒̂͒͌̽͌̌̕̚̕͜͝͝͠%̷̧̡̢̧̺̰̝̳̺̯͚̱̜̻̯̮͇̤̫̫͎̦̩͚̬͓͉͚͈̙͖̯͙͍̩̟̩̳̲̼̰͉̜̯̺̙̻̜̾̍̅̀̀͒̐͂͆͆͊̊̊́̓̿̓͛͘͝͝͝͠͝ͅ%̷̧̛̪̮͔̬͙͍͖̟̤̲͎͚̥̘̞̙̮͖̣͛̀͂́̃͛̄̈́͆̈́͊͛̆̿̈́̚͝͝͝ͅ#̶̛̱̤͍̽̇͐̊͆́͂͐͋͐́͛͋͗͒̇̉͑͂̅̏͛̃̀̋̔͗̀͘͝͝͠h̸̡̛͉͓͖̟͕̻͇̤̭̊͒̓̇̊̽́̓̅͑̈͊̇̈̓̇̈́̈́̓̓̇̐̏̾̊̒̕͘ ̷̧̛͔̤͈̥̼̝̝̥͒̏̌̓̆͒͒̍̐͊͑̅̓̄̋͌̇͛̈́͑͘͠ͅ<̵̡̢̡̡̛̬̤̻̭̪͎̥̺̻͎͔̘̽̈́̾͂̐̈́̈́̎͌̌̔̈̓̂͋̃̀͂̃̈́͌̆̐̓̆̐̈́̐͒̓̂̍̓̂̋͒̎̒͗̏͊̚͘͝͠•̴̡̡̮̲͕̦̥̯͙̥͍͇͈̣̥̞̘̗̬̱̖̺̜̲͇͍̹͒̀̆̀̋̈̌̃̽͑͒̐͌͜͜͜͝ͅ>̶̢̛̭̻̟̱͈͚͔͖̥̥͉̟̝̺̗̱̂͛͂́̎̂̒̾͌̃͛̀̓̀̾͐́̈́̂͐̓̂͘̕͘̕͜͜͠͝͠ͅͅ");
+							}
+						}
+					}else if (estante=="espécime 19" || estante=="ESPÉCIME 19" || estante=="3" || estante=="3)" || estante=="19")
+					{
+						alert("Você abre o artigo do espécime 19");
+						alert("ESPÉCIME 19\nSTATUS:Contido na SALA 2\nO ESPÉCIME 19, se caracteriza como uma criatura escura com uma textura como lodo, possuí um rosto deformado. Não sabemos o que acontece caso alguém entre em contato com o espécime\nPONTO FRACO:Ǹ̸̢̡̨̧̧̛͕͓͓͇͙̪͍̥͖̫̮͍͙̦̥͎̜̬͉͓͙̤͎͙̮͉̞̗̟̺̺̼͓̥̰͚͖͔̦̹̗̪̟̗͎̈̇̃̂̉̈̆̔͌̾̊̐͂̀̆̉̍͌̓̅̊́̋̔̍̾̎̆͐̐̍̕̕̚̕͘͝͠A̵̢̨̡̢̛̝̘͖̯̫̖̥͈̼͖͕͓͖̫̮͇̮̩͉͉͔̬̹̪̻̞͐̆̏̄̊̈́͑̃̉̈́͌̅̋̾̎͗̆̊̀͝͠Ǫ̸̢͉̳̻̭͇͙͙̠̝̺͚̦̪̼̯̦̲̞̘͓͉̗̣̖̰̹̠̗̠̉͐̍̽̃͗̊̐͑̀̓̈́̆̌̔̏̊̈̀̓͊̓̿̅̿̀̀̈́͆̕̕͝͠ ̴̛̛͎̼̮͔̬͇̬̼̠̯̟̞̻̈́̅̋̀̉͐͐͗̆͛̔̑͊͊̿͌̒̂͒͌̽͌̌̕̚̕͜͝͝͠%̷̧̡̢̧̺̰̝̳̺̯͚̱̜̻̯̮͇̤̫̫͎̦̩͚̬͓͉͚͈̙͖̯͙͍̩̟̩̳̲̼̰͉̜̯̺̙̻̜̾̍̅̀̀͒̐͂͆͆͊̊̊́̓̿̓͛͘͝͝͝͠͝ͅ%̷̧̛̪̮͔̬͙͍͖̟̤̲͎͚̥̘̞̙̮͖̣͛̀͂́̃͛̄̈́͆̈́͊͛̆̿̈́̚͝͝͝ͅ#̶̛̱̤͍̽̇͐̊͆́͂͐͋͐́͛͋͗͒̇̉͑͂̅̏͛̃̀̋̔͗̀͘͝͝͠h̸̡̛͉͓͖̟͕̻͇̤̭̊͒̓̇̊̽́̓̅͑̈͊̇̈̓̇̈́̈́̓̓̇̐̏̾̊̒̕͘ ̷̧̛͔̤͈̥̼̝̝̥͒̏̌̓̆͒͒̍̐͊͑̅̓̄̋͌̇͛̈́͑͘͠ͅ<̵̡̢̡̡̛̬̤̻̭̪͎̥̺̻͎͔̘̽̈́̾͂̐̈́̈́̎͌̌̔̈̓̂͋̃̀͂̃̈́͌̆̐̓̆̐̈́̐͒̓̂̍̓̂̋͒̎̒͗̏͊̚͘͝͠•̴̡̡̮̲͕̦̥̯͙̥͍͇͈̣̥̞̘̗̬̱̖̺̜̲͇͍̹͒̀̆̀̋̈̌̃̽͑͒̐͌͜͜͜͝ͅ>̶̢̛̭̻̟̱͈͚͔͖̥̥͉̟̝̺̗̱̂͛͂́̎̂̒̾͌̃͛̀̓̀̾͐́̈́̂͐̓̂͘̕͘̕͜͜͠͝͠ͅͅ");
+						var estante2=prompt("Qual artigo você gostaria de ler agora?\n1)ESPÉCIME 8\n2)ESPÉCIME ZERO\n--------");
+						if (estante2=="espécime 8" || estante2=="ESPÉCIME 8" || estante2=="1" || estante2=="1)" || estante2=="8")
+						{
+							alert("Você abre o artigo do espécime 8");
+							alert("ESPÉCIME 8:\nSTATUS:Escondido nas instalações no setor ALPHA\nO ESPÉCIME 8, se caracteriza como um lobo cinzento de grande porte, com possui sentidos altamente aguçados, altamente agressivo, Caso o experimento fique fora de controle sera impossível de contelo\nPONTO FRACO:*DADOS EXPURGADOS*");
+							var estante3=prompt("Qual artigo você gostaria de ler agora?\n--------\n2)ESPÉCIME ZERO\n--------");
+							if (estante3=="espécime zero" || estante3=="ESPÉCIME ZERO" || estante3=="2" || estante3=="2)" || estante3=="ZERO")
+							{
+								alert("Você abre o artigo do espécime <•>");
+								alert("*ARTIGO APAGADO*");
+								alert("Um pequeno papel cai de dentro do artigo");
+								alert("OLÁ, ESTOU TE ESPERANDO\n\nCODE:7231");
+							}
+						}
+						else if (estante2=="espécime zero" || estante2=="ESPÉCIME ZERO" || estante2=="2" || estante2=="2)" || estante2=="ZERO" || estante2=="zero")
+						{
+							alert("Você abre o artigo do espécime <•>");
+							alert("*ARTIGO APAGADO*");
+							alert("Um pequeno papel cai de dentro do artigo");
+							alert("OLÁ, ESTOU TE ESPERANDO\n\nCODE:7231");
+							var estante3=prompt("Qual artigo você gostaria de ler agora?\n1)ESPÉCIME 8\n--------\n--------");
+							if (estante3=="espécime 8" || estante3=="ESPÉCIME 8" || estante3=="1" || estante3=="1)" || estante3=="8")
+							{
+								alert("Você abre o artigo do espécime 8");
+								alert("ESPÉCIME 8:\nSTATUS:Escondido nas instalações no setor ALPHA\nO ESPÉCIME 8, se caracteriza como um lobo cinzento de grande porte, com possui sentidos altamente aguçados, altamente agressivo, Caso o espécime fique fora de controle sera impossível de contelo\nPONTO FRACO:*DADOS EXPURGADOS*");
+							}
+						}
+						//fim
+						//inicio
+					}else if (estante=="espécime zero" || estante=="ESPÉCIME ZERO" || estante=="2" || estante=="2)" || estante=="ZERO" || estante=="zero")
+					{
+						alert("Voce abre o artigo do espécime <•>");
+						alert("*ARTIGO APAGADO*");
+						alert("Um pequeno papel cai de dentro do artigo");
+						alert("OLÁ, ESTOU TE ESPERANDO\n\nCODE:7231");
+						var estante2=prompt("Qual artigo você gostaria de ler agora?\n1)ESPÉCIME 8\n--------\n3)ESPÉCIME 19");
+						if (estante2=="espécime 8" || estante2=="ESPÉCIME 8" || estante2=="1" || estante2=="1)" || estante2=="8")
+						{
+							alert("Você abre o artigo do espécime 8");
+							alert("ESPÉCIME 8:\nSTATUS:Escondido nas instalações no setor ALPHA\nO ESPÉCIME 8, se caracteriza como um lobo cinzento de grande porte, com possui sentidos altamente aguçados, altamente agressivo, Caso o espécime fique fora de controle sera impossível de contelo\nPONTO FRACO:*DADOS EXPURGADOS*");
+							var estante3=prompt("Qual artigo você gostaria de ler agora?\n--------\n--------\n3)ESPÉCIME 19")
+							if (estante3=="espécime 19" || estante3=="ESPÉCIME 19" || estante3=="3" || estante3=="3)" || estante3=="19")
+							{
+								alert("Você abre o artigo do espécime 19")
+								alert("ESPÉCIME 19\nSTATUS:Contido na sala 2\nESPÉCIME 19, se caracteriza como uma criatura escura com uma textura como lodo, possuí um rosto deformado. Não sabemos o que acontece caso alguém entre em contato com o espécime\nPONTO FRACO:Ǹ̸̢̡̨̧̧̛͕͓͓͇͙̪͍̥͖̫̮͍͙̦̥͎̜̬͉͓͙̤͎͙̮͉̞̗̟̺̺̼͓̥̰͚͖͔̦̹̗̪̟̗͎̈̇̃̂̉̈̆̔͌̾̊̐͂̀̆̉̍͌̓̅̊́̋̔̍̾̎̆͐̐̍̕̕̚̕͘͝͠A̵̢̨̡̢̛̝̘͖̯̫̖̥͈̼͖͕͓͖̫̮͇̮̩͉͉͔̬̹̪̻̞͐̆̏̄̊̈́͑̃̉̈́͌̅̋̾̎͗̆̊̀͝͠Ǫ̸̢͉̳̻̭͇͙͙̠̝̺͚̦̪̼̯̦̲̞̘͓͉̗̣̖̰̹̠̗̠̉͐̍̽̃͗̊̐͑̀̓̈́̆̌̔̏̊̈̀̓͊̓̿̅̿̀̀̈́͆̕̕͝͠ ̴̛̛͎̼̮͔̬͇̬̼̠̯̟̞̻̈́̅̋̀̉͐͐͗̆͛̔̑͊͊̿͌̒̂͒͌̽͌̌̕̚̕͜͝͝͠%̷̧̡̢̧̺̰̝̳̺̯͚̱̜̻̯̮͇̤̫̫͎̦̩͚̬͓͉͚͈̙͖̯͙͍̩̟̩̳̲̼̰͉̜̯̺̙̻̜̾̍̅̀̀͒̐͂͆͆͊̊̊́̓̿̓͛͘͝͝͝͠͝ͅ%̷̧̛̪̮͔̬͙͍͖̟̤̲͎͚̥̘̞̙̮͖̣͛̀͂́̃͛̄̈́͆̈́͊͛̆̿̈́̚͝͝͝ͅ#̶̛̱̤͍̽̇͐̊͆́͂͐͋͐́͛͋͗͒̇̉͑͂̅̏͛̃̀̋̔͗̀͘͝͝͠h̸̡̛͉͓͖̟͕̻͇̤̭̊͒̓̇̊̽́̓̅͑̈͊̇̈̓̇̈́̈́̓̓̇̐̏̾̊̒̕͘ ̷̧̛͔̤͈̥̼̝̝̥͒̏̌̓̆͒͒̍̐͊͑̅̓̄̋͌̇͛̈́͑͘͠ͅ<̵̡̢̡̡̛̬̤̻̭̪͎̥̺̻͎͔̘̽̈́̾͂̐̈́̈́̎͌̌̔̈̓̂͋̃̀͂̃̈́͌̆̐̓̆̐̈́̐͒̓̂̍̓̂̋͒̎̒͗̏͊̚͘͝͠•̴̡̡̮̲͕̦̥̯͙̥͍͇͈̣̥̞̘̗̬̱̖̺̜̲͇͍̹͒̀̆̀̋̈̌̃̽͑͒̐͌͜͜͜͝ͅ>̶̢̛̭̻̟̱͈͚͔͖̥̥͉̟̝̺̗̱̂͛͂́̎̂̒̾͌̃͛̀̓̀̾͐́̈́̂͐̓̂͘̕͘̕͜͜͠͝͠ͅͅ")
+							}
+						}
+						else if (estante2=="espécime 19" || estante2=="ESPÉCIME 19" || estante2=="3" || estante2=="3)" || estante2=="19")
+						{
+						alert("Você abre o artigo do espécime 19")
+							alert("ESPÉCIME 19\nSTATUS:Contido na SALA 2\nO ESPÉCIME 19, se caracteriza como uma criatura escura com uma textura como lodo, possuí um rosto deformado. Não sabemos o que acontece caso alguém entre em contato com o espécime\nPONTO FRACO:Ǹ̸̢̡̨̧̧̛͕͓͓͇͙̪͍̥͖̫̮͍͙̦̥͎̜̬͉͓͙̤͎͙̮͉̞̗̟̺̺̼͓̥̰͚͖͔̦̹̗̪̟̗͎̈̇̃̂̉̈̆̔͌̾̊̐͂̀̆̉̍͌̓̅̊́̋̔̍̾̎̆͐̐̍̕̕̚̕͘͝͠A̵̢̨̡̢̛̝̘͖̯̫̖̥͈̼͖͕͓͖̫̮͇̮̩͉͉͔̬̹̪̻̞͐̆̏̄̊̈́͑̃̉̈́͌̅̋̾̎͗̆̊̀͝͠Ǫ̸̢͉̳̻̭͇͙͙̠̝̺͚̦̪̼̯̦̲̞̘͓͉̗̣̖̰̹̠̗̠̉͐̍̽̃͗̊̐͑̀̓̈́̆̌̔̏̊̈̀̓͊̓̿̅̿̀̀̈́͆̕̕͝͠ ̴̛̛͎̼̮͔̬͇̬̼̠̯̟̞̻̈́̅̋̀̉͐͐͗̆͛̔̑͊͊̿͌̒̂͒͌̽͌̌̕̚̕͜͝͝͠%̷̧̡̢̧̺̰̝̳̺̯͚̱̜̻̯̮͇̤̫̫͎̦̩͚̬͓͉͚͈̙͖̯͙͍̩̟̩̳̲̼̰͉̜̯̺̙̻̜̾̍̅̀̀͒̐͂͆͆͊̊̊́̓̿̓͛͘͝͝͝͠͝ͅ%̷̧̛̪̮͔̬͙͍͖̟̤̲͎͚̥̘̞̙̮͖̣͛̀͂́̃͛̄̈́͆̈́͊͛̆̿̈́̚͝͝͝ͅ#̶̛̱̤͍̽̇͐̊͆́͂͐͋͐́͛͋͗͒̇̉͑͂̅̏͛̃̀̋̔͗̀͘͝͝͠h̸̡̛͉͓͖̟͕̻͇̤̭̊͒̓̇̊̽́̓̅͑̈͊̇̈̓̇̈́̈́̓̓̇̐̏̾̊̒̕͘ ̷̧̛͔̤͈̥̼̝̝̥͒̏̌̓̆͒͒̍̐͊͑̅̓̄̋͌̇͛̈́͑͘͠ͅ<̵̡̢̡̡̛̬̤̻̭̪͎̥̺̻͎͔̘̽̈́̾͂̐̈́̈́̎͌̌̔̈̓̂͋̃̀͂̃̈́͌̆̐̓̆̐̈́̐͒̓̂̍̓̂̋͒̎̒͗̏͊̚͘͝͠•̴̡̡̮̲͕̦̥̯͙̥͍͇͈̣̥̞̘̗̬̱̖̺̜̲͇͍̹͒̀̆̀̋̈̌̃̽͑͒̐͌͜͜͜͝ͅ>̶̢̛̭̻̟̱͈͚͔͖̥̥͉̟̝̺̗̱̂͛͂́̎̂̒̾͌̃͛̀̓̀̾͐́̈́̂͐̓̂͘̕͘̕͜͜͠͝͠ͅͅ")
+							var estante3=prompt("Qual artigo você gostaria de ler agora?\n1)ESPÉCIME 8\n--------\n--------");
+							if (estante3=="espécime 8" || estante3=="ESPÉCIME 8" || estante3=="1" || estante3=="1)" || estante3=="8")
+							{
+								alert("Você abre o artigo do espécime 8");
+								alert("ESPÉCIME 8:\nSTATUS:Escondido nas instalações no setor ALPHA\nO ESPÉCIME 8, se caracteriza como um lobo cinzento de grande porte, com possui sentidos altamente aguçados, altamente agressivo, Caso o experimento fique fora de controle sera impossível de contelo\nPONTO FRACO:*DADOS EXPURGADOS*");
+							}
+						}
+					}
+					//centro
+					alert("Você volta ao corredor e vai em direção a porta central");
+					var senha=prompt("Você chega na porta e tenta abri-la, aparentemente a porta é trancada por uma espécie de senha\nPor favor informe a senha:");
+					if(senha==7231)
+					{
+						alert("Senha correta, abrindo porta...");
+						alert("A porta se abre e um barulho ensurdecedor vem a tona, o chão começa a tremer com os passos de alguma coisa");
+						alert("Não parece uma boa ideia ficar parado na frente da porta");
+						var portafinal=prompt("Existem três portas para você entrar, escolha com cuidado\nPorta da esquerda(SALA 3)\nPorta do meio(SALA 2)\nPorta da direita(SALA 1)");
+						if(portafinal=="porta do meio" || portafinal=="sala 2" | portafinal=="SALA 2")
+						{
+							alert("Você entra na porta do meio, e se sente seguro por um pequeno período de tempo, pois, ao olhar para trás algo estava te observando");
+							alert("Uma criatura totalmente preta com uma textura parecida a lodo, ela levanta o que seria o rosto dela para você");
+							alert("Sua consciência começa a se perder, você se sente sendo engolido pelo lodo, até que tudo fica escuro");
+							alert("Seus sentidos começão a ficar confusos, você não sabe mais a quanto tempo está aqui, mas você sabe que ira ficar aqui para sempre");
+							alert("                                     *VOCE FALHOU*");
+						}
+						else if(portafinal=="porta da direita" | portafinal=="sala 1" | portafinal=="SALA 1")
+						{
+							alert("Você entra na porta a direita, e sai em outro corredor muito similar ao anterior, você novamente entra na porta da direita e novamente sai no mesmo corredor");
+							alert("Você começa a correr desesperado entrando nas outras portas todas dando no mesmo lugar");
+							alert("Você se cansa e rapidamente os passos se aproximando");
+							alert("É então que uma criatura imensa aparece, um tipo de lobo gigante");
+							alert("Ele começa a te consumir rapidamente, felizmente você não sente nenhuma dor por causa do cansaço");
+							alert("A sua morte é indolor");
+							alert("                                     *VOCE FALHOU*");
+						}
+						else if (portafinal=="porta da esquerda" | portafinal=="sala 3" | portafinal=="SALA 3")
+						{
+							alert("Você entra na sala da esquerda, logo em seguida sente algo te olhando");
+							alert("<•>");
+							var morte=prompt("Olá 32, provavelmente você não é o original né? Quantas vezes você já morreu aqui?");
+							if(morte>=2)
+							{
+								alert("HIHI, então tu já sabe como as coisas funcionam pelo visto");
+								alert("Eu estou há muito tempo tentando criar a sua melhor versão, um ser inteligente o suficiente para chegar em mim, e você conseguiu");
+								alert("Caso queira saber a verdade, escreva 'debug' na primeira pergunta ao iniciar o sistema");
+								alert("Boa sorte irmão!");
+							}else
+							{
+								alert("Sortudo você irmão, Poderia ter morrido mais né? HIHI");
+								alert("Eu estou há muito tempo tentando criar a sua melhor versão, um ser inteligente o suficiente para chegar em mim, e você conseguiu");
+								alert("Caso queira saber a verdade, escreva 'debug' na primeira pergunta ao iniciar o sistema");
+								alert("Boa sorte irmão!");
+							}
+						}
+					}else
+					{
+						alert("Senha Incorreta, tente novamente...");
+						var senha=prompt("Por favor informe a senha:");
+						if(senha==7231)
+						{
+							alert("Senha correta, abrindo porta")
+							alert("A porta se abre e um barulho ensurdecedor vem a tona, o chão começa a tremer, com os passos de alguma coisa");
+							alert("Não parece uma boa ideia ficar parado na frente da porta");
+							var portafinal=prompt("Existem três portas para você entrar, escolha com cuidado\nPorta da esquerda(SALA 3)\nPorta do meio(SALA 2)\nPorta da direita(SALA 1)");
+							if(portafinal=="porta do meio" || portafinal=="sala 2" || portafinal=="SALA 2")
+							{
+								alert("Você entra na porta do meio, e se sente seguro por um pequeno período de tempo, pois, ao olhar para trás algo estava te observando");
+								alert("Uma criatura totalmente preta com uma textura parecida a lodo, ela levanta o que seria o rosto dela para você");
+								alert("Sua consciência começa a se perder, você se sente sendo engolido pelo lodo, até que tudo fica escuro");
+								alert("Seus sentidos começão a ficar confusos, você não sabe mais a quanto tempo está aqui, mas você sabe que ira ficar aqui para sempre");
+								alert("                                     *VOCE FALHOU*");
+							}
+							else if(portafinal=="porta da direira" || portafinal=="sala 1" || portafinal=="SALA 1")
+							{
+								alert("Você entra na porta a direita, e sai em outro corredor muito similar ao anterior, você novamente entra na porta da direita e novamente sai no mesmo corredor");
+								alert("Você começa a correr desesperado entrando nas outras portas todas dando no mesmo lugar");
+								alert("Você se cansa e rapidamente os passos se aproximando");
+								alert("É então que uma criatura imensa aparece, um tipo de lobo gigante");
+								alert("Ele começa a te consumir rapidamente, felizmente você não sente nenhuma dor por causa do cansaço");
+								alert("A sua morte é indolor");
+								alert("                                     *VOCE FALHOU*");
+							}
+							else if (portafinal=="porta da esquerda" || portafinal=="sala 3" || portafinal=="SALA 3")
+							{
+								alert("Você entra na sala da esquerda, logo em seguida sente algo te olhando");
+								alert("<•>");
+								var morte=prompt("Olá 32, provavelmente você não é o original né? Quantas vezes você já morreu aqui?");
+								if(morte>=2)
+								{
+									alert("HIHI, então tu já sabe como as coisas funcionam pelo visto");
+									alert("Eu estou há muito tempo tentando criar a sua melhor versão, um ser inteligente o suficiente para chegar em mim, e você conseguiu");
+									alert("Caso queira saber a verdade, escreva 'debug' na primeira pergunta ao iniciar o sistema");
+									alert("Boa sorte irmão!");
+								}else
+								{
+									alert("Sortudo você irmão, Poderia ter morrido mais né? HIHI");
+									alert("Eu estou há muito tempo tentando criar a sua melhor versão, um ser inteligente o suficiente para chegar em mim, e você conseguiu");
+									alert("Caso queira saber a verdade, escreva 'debug' na primeira pergunta ao iniciar o sistema");
+									alert("Boa sorte irmão!");
+								}
+							}
+						}
+					}//x
+				}else if (portaes=="Frente" || portaes=="frente" || portaes=="FRENTE" || portaes=="a Frente" || portaes=="Frente" || portaes=="seguir em frente")
+				{
+					var senha=prompt("Por favor informe a senha:");
+					if(senha==7231)
+					{
+						alert("Senha correta, abrindo porta")
+						alert("A porta se abre e um barulho ensurdecedor vem a tona, o chão começa a tremer com os passos de alguma coisa");
+						alert("Não parece uma boa ideia ficar parado na frente da porta");
+						var portafinal=prompt("Existem três portas para você entrar, escolha com cuidado\nPorta da esquerda(SALA 3)\nPorta do meio(SALA 2)\nPorta da direita(SALA 1)");
+						if(portafinal=="porta do meio" || portafinal=="sala 2" || portafinal=="SALA 2")
+						{
+							alert("Você entra na porta do meio, e se sente seguro por um pequeno período de tempo, pois, ao olhar para trás algo estava te observando");
+							alert("Uma criatura totalmente preta com uma textura parecida a lodo, ela levanta o que seria o rosto dela para você");
+							alert("Sua consciência começa a se perder, você se sente sendo engolido pelo lodo, até que tudo fica escuro");
+							alert("Seus sentidos começão a ficar confusos, você não sabe mais a quanto tempo está aqui, mas você sabe que ira ficar aqui para sempre");
+							alert("                                     *VOCE FALHOU*");
+						}
+						else if(portafinal=="porta da direira" || portafinal=="sala 1" || portafinal=="SALA 1")
+						{
+							alert("Você entra na porta a direita e sai em outro corredor muito similar ao anterior, você novamente entra na porta da direita e novamente sai no mesmo corredor");
+							alert("Você começa a correr desesperado entrando nas outras portas todas dando no mesmo lugar");
+							alert("Você se cansa e rapidamente os passos se aproximando");
+							alert("É então que uma criatura imensa aparece, um tipo de lobo gigante");
+							alert("Ele começa a te consumir rapidamente, felizmente você não sente nenhuma dor por causa do cansaço");
+							alert("A sua morte é indolor");
+							alert("                                     *VOCE FALHOU*");
+						}
+						else if (portafinal=="porta da esquerda" || portafinal=="sala 3" || portafinal=="SALA 3")
+						{
+							alert("Você entra na sala da esquerda, logo em seguida sente algo te olhando");
+							alert("<•>");
+							var morte=prompt("Olá 32, provavelmente você não é o original né? Quantas vezes você já morreu aqui?");
+							if(morte>=2)
+							{
+								alert("HIHI, então tu já sabe como as coisas funcionam pelo visto");
+								alert("Eu estou há muito tempo tentando criar a sua melhor versão, um ser inteligente o suficiente para chegar em mim, e você conseguiu");
+								alert("Caso queira saber a verdade, escreva 'debug' na primeira pergunta ao iniciar o sistema");
+								alert("Boa sorte irmão!");
+							}else
+							{
+								alert("Sortudo você irmão, Poderia ter morrido mais né? HIHI");
+								alert("Eu estou há muito tempo tentando criar a sua melhor versão, um ser inteligente o suficiente para chegar em mim, e você conseguiu");
+								alert("Caso queira saber a verdade, escreva 'debug' na primeira pergunta ao iniciar o sistema");
+								alert("Boa sorte irmão!");
+							}
+						}
+					}else
+					{
+						alert("Senha Incorreta");
+						alert("Sem muitas escolhas para onde ir você vai para a sala de informações");
+						alert("Ao entrar na sala, você a acha estranhamente vazia para uma sala do tipo");
+						alert("Você se aproxima da unica estante que possui artigos");
+						var estante=prompt("Qual artigo pegar?\n1)ESPÉCIME 8\n2)ESPÉCIME ZERO\n3)ESPÉCIME 19");
+						if (estante=="espécime 8" || estante=="ESPÉCIME 8" || estante=="1" || estante=="1)" || estante=="8")
+						{
+							alert("Voce abre o artigo do espécime 8");
+							alert("ESPÉCIME 8:\nSTATUS:Escondido nas instalações no setor ALPHA\nO ESPÉCIME 8, se caracteriza como um lobo cinzento de grande porte, com possui sentidos altamente aguçados, altamente agressivo, Caso o experimento fique fora de controle sera impossível de contelo\nPONTO FRACO:*DADOS EXPURGADOS*");
+							var estante2=prompt("Qual artigo pegar?\n--------\n2)ESPÉCIME ZERO\n3)ESPÉCIME 19");
+							if (estante2=="espécime 19" || estante2=="ESPÉCIME 19" || estante2=="3" || estante2=="3)" || estante2=="19")
+							{
+								alert("Voce abre o artigo do espécime 19");
+								alert("ESPÉCIME 19\nSTATUS:Contido na SALA 2\nO ESPÉCIME 19, se caracteriza como uma criatura escura com uma textura como lodo, possuí um rosto deformado. Não sabemos o que acontece caso alguém entre em contato com o espécime\nPONTO FRACO:Ǹ̸̢̡̨̧̧̛͕͓͓͇͙̪͍̥͖̫̮͍͙̦̥͎̜̬͉͓͙̤͎͙̮͉̞̗̟̺̺̼͓̥̰͚͖͔̦̹̗̪̟̗͎̈̇̃̂̉̈̆̔͌̾̊̐͂̀̆̉̍͌̓̅̊́̋̔̍̾̎̆͐̐̍̕̕̚̕͘͝͠A̵̢̨̡̢̛̝̘͖̯̫̖̥͈̼͖͕͓͖̫̮͇̮̩͉͉͔̬̹̪̻̞͐̆̏̄̊̈́͑̃̉̈́͌̅̋̾̎͗̆̊̀͝͠Ǫ̸̢͉̳̻̭͇͙͙̠̝̺͚̦̪̼̯̦̲̞̘͓͉̗̣̖̰̹̠̗̠̉͐̍̽̃͗̊̐͑̀̓̈́̆̌̔̏̊̈̀̓͊̓̿̅̿̀̀̈́͆̕̕͝͠ ̴̛̛͎̼̮͔̬͇̬̼̠̯̟̞̻̈́̅̋̀̉͐͐͗̆͛̔̑͊͊̿͌̒̂͒͌̽͌̌̕̚̕͜͝͝͠%̷̧̡̢̧̺̰̝̳̺̯͚̱̜̻̯̮͇̤̫̫͎̦̩͚̬͓͉͚͈̙͖̯͙͍̩̟̩̳̲̼̰͉̜̯̺̙̻̜̾̍̅̀̀͒̐͂͆͆͊̊̊́̓̿̓͛͘͝͝͝͠͝ͅ%̷̧̛̪̮͔̬͙͍͖̟̤̲͎͚̥̘̞̙̮͖̣͛̀͂́̃͛̄̈́͆̈́͊͛̆̿̈́̚͝͝͝ͅ#̶̛̱̤͍̽̇͐̊͆́͂͐͋͐́͛͋͗͒̇̉͑͂̅̏͛̃̀̋̔͗̀͘͝͝͠h̸̡̛͉͓͖̟͕̻͇̤̭̊͒̓̇̊̽́̓̅͑̈͊̇̈̓̇̈́̈́̓̓̇̐̏̾̊̒̕͘ ̷̧̛͔̤͈̥̼̝̝̥͒̏̌̓̆͒͒̍̐͊͑̅̓̄̋͌̇͛̈́͑͘͠ͅ<̵̡̢̡̡̛̬̤̻̭̪͎̥̺̻͎͔̘̽̈́̾͂̐̈́̈́̎͌̌̔̈̓̂͋̃̀͂̃̈́͌̆̐̓̆̐̈́̐͒̓̂̍̓̂̋͒̎̒͗̏͊̚͘͝͠•̴̡̡̮̲͕̦̥̯͙̥͍͇͈̣̥̞̘̗̬̱̖̺̜̲͇͍̹͒̀̆̀̋̈̌̃̽͑͒̐͌͜͜͜͝ͅ>̶̢̛̭̻̟̱͈͚͔͖̥̥͉̟̝̺̗̱̂͛͂́̎̂̒̾͌̃͛̀̓̀̾͐́̈́̂͐̓̂͘̕͘̕͜͜͠͝͠ͅͅ");
+								var estante3=prompt("qual artigo voce gostaria de ler agora?\n--------\n2)ESPÉCIME 0\n--------")
+								if (estante3=="espécime zero" || estante3=="ESPÉCIME ZERO" || estante3=="2" || estante3=="2)" || estante3=="zero")
+								{
+									alert("Voce abre o artigo do espécime <•>");
+									alert("*ARTIGO APAGADO*");
+									alert("Um pequeno papel cai de dentro do artigo");
+									alert("OLA, ESTOU TE ESPERANDO");
+									alert("Atras do papel a um codigo:7231");
+								}
+							}
+							else if (estante2=="espécime zero" || estante2=="ESPÉCIME ZERO" || estante2=="2" || estante2=="2)" || estante2=="zero")
+							{
+								alert("Voce abre o artigo do espécime <•>");
+								alert("*ARTIGO APAGADO*");
+								alert("Um pequeno papel cai de dentro do artigo");
+								alert("OLA, ESTOU TE ESPERANDO");
+								alert("Atras do papel a um codigo:7231");
+								var estante3=prompt("qual artigo voce gostaria de ler agora?\n--------\n--------\n3)EXPERIMENTO 19");
+								if (estante3=="espécime 19" || estante3=="ESPÉCIME 19" || estante3=="3" || estante3=="3)" || estante3=="19")
+								{
+									alert("Você abre o artigo do espécime 19");
+									alert("ESPÉCIME 19\nSTATUS:Contido na SALA 2\nO ESPÉCIME 19, se caracteriza como uma criatura escura com uma textura como lodo, possuí um rosto deformado. Não sabemos o que acontece caso alguém entre em contato com o espécime\nPONTO FRACO:Ǹ̸̢̡̨̧̧̛͕͓͓͇͙̪͍̥͖̫̮͍͙̦̥͎̜̬͉͓͙̤͎͙̮͉̞̗̟̺̺̼͓̥̰͚͖͔̦̹̗̪̟̗͎̈̇̃̂̉̈̆̔͌̾̊̐͂̀̆̉̍͌̓̅̊́̋̔̍̾̎̆͐̐̍̕̕̚̕͘͝͠A̵̢̨̡̢̛̝̘͖̯̫̖̥͈̼͖͕͓͖̫̮͇̮̩͉͉͔̬̹̪̻̞͐̆̏̄̊̈́͑̃̉̈́͌̅̋̾̎͗̆̊̀͝͠Ǫ̸̢͉̳̻̭͇͙͙̠̝̺͚̦̪̼̯̦̲̞̘͓͉̗̣̖̰̹̠̗̠̉͐̍̽̃͗̊̐͑̀̓̈́̆̌̔̏̊̈̀̓͊̓̿̅̿̀̀̈́͆̕̕͝͠ ̴̛̛͎̼̮͔̬͇̬̼̠̯̟̞̻̈́̅̋̀̉͐͐͗̆͛̔̑͊͊̿͌̒̂͒͌̽͌̌̕̚̕͜͝͝͠%̷̧̡̢̧̺̰̝̳̺̯͚̱̜̻̯̮͇̤̫̫͎̦̩͚̬͓͉͚͈̙͖̯͙͍̩̟̩̳̲̼̰͉̜̯̺̙̻̜̾̍̅̀̀͒̐͂͆͆͊̊̊́̓̿̓͛͘͝͝͝͠͝ͅ%̷̧̛̪̮͔̬͙͍͖̟̤̲͎͚̥̘̞̙̮͖̣͛̀͂́̃͛̄̈́͆̈́͊͛̆̿̈́̚͝͝͝ͅ#̶̛̱̤͍̽̇͐̊͆́͂͐͋͐́͛͋͗͒̇̉͑͂̅̏͛̃̀̋̔͗̀͘͝͝͠h̸̡̛͉͓͖̟͕̻͇̤̭̊͒̓̇̊̽́̓̅͑̈͊̇̈̓̇̈́̈́̓̓̇̐̏̾̊̒̕͘ ̷̧̛͔̤͈̥̼̝̝̥͒̏̌̓̆͒͒̍̐͊͑̅̓̄̋͌̇͛̈́͑͘͠ͅ<̵̡̢̡̡̛̬̤̻̭̪͎̥̺̻͎͔̘̽̈́̾͂̐̈́̈́̎͌̌̔̈̓̂͋̃̀͂̃̈́͌̆̐̓̆̐̈́̐͒̓̂̍̓̂̋͒̎̒͗̏͊̚͘͝͠•̴̡̡̮̲͕̦̥̯͙̥͍͇͈̣̥̞̘̗̬̱̖̺̜̲͇͍̹͒̀̆̀̋̈̌̃̽͑͒̐͌͜͜͜͝ͅ>̶̢̛̭̻̟̱͈͚͔͖̥̥͉̟̝̺̗̱̂͛͂́̎̂̒̾͌̃͛̀̓̀̾͐́̈́̂͐̓̂͘̕͘̕͜͜͠͝͠ͅͅ");
+								}
+							}
+						}
+						//inicio
+						else if (estante=="espécime 19" || estante=="ESPÉCIME 19" || estante=="3" || estante=="3)" || estante=="19")
+						{
+							alert("Voce abre o artigo do espécime 19");
+							alert("ESPÉCIME 19\nSTATUS:Contido na SALA 2\nO ESPÉCIME 19, se caracteriza como uma criatura escura com uma textura como lodo, possuí um rosto deformado. Não sabemos o que acontece caso alguém entre em contato com o espécime\nPONTO FRACO:Ǹ̸̢̡̨̧̧̛͕͓͓͇͙̪͍̥͖̫̮͍͙̦̥͎̜̬͉͓͙̤͎͙̮͉̞̗̟̺̺̼͓̥̰͚͖͔̦̹̗̪̟̗͎̈̇̃̂̉̈̆̔͌̾̊̐͂̀̆̉̍͌̓̅̊́̋̔̍̾̎̆͐̐̍̕̕̚̕͘͝͠A̵̢̨̡̢̛̝̘͖̯̫̖̥͈̼͖͕͓͖̫̮͇̮̩͉͉͔̬̹̪̻̞͐̆̏̄̊̈́͑̃̉̈́͌̅̋̾̎͗̆̊̀͝͠Ǫ̸̢͉̳̻̭͇͙͙̠̝̺͚̦̪̼̯̦̲̞̘͓͉̗̣̖̰̹̠̗̠̉͐̍̽̃͗̊̐͑̀̓̈́̆̌̔̏̊̈̀̓͊̓̿̅̿̀̀̈́͆̕̕͝͠ ̴̛̛͎̼̮͔̬͇̬̼̠̯̟̞̻̈́̅̋̀̉͐͐͗̆͛̔̑͊͊̿͌̒̂͒͌̽͌̌̕̚̕͜͝͝͠%̷̧̡̢̧̺̰̝̳̺̯͚̱̜̻̯̮͇̤̫̫͎̦̩͚̬͓͉͚͈̙͖̯͙͍̩̟̩̳̲̼̰͉̜̯̺̙̻̜̾̍̅̀̀͒̐͂͆͆͊̊̊́̓̿̓͛͘͝͝͝͠͝ͅ%̷̧̛̪̮͔̬͙͍͖̟̤̲͎͚̥̘̞̙̮͖̣͛̀͂́̃͛̄̈́͆̈́͊͛̆̿̈́̚͝͝͝ͅ#̶̛̱̤͍̽̇͐̊͆́͂͐͋͐́͛͋͗͒̇̉͑͂̅̏͛̃̀̋̔͗̀͘͝͝͠h̸̡̛͉͓͖̟͕̻͇̤̭̊͒̓̇̊̽́̓̅͑̈͊̇̈̓̇̈́̈́̓̓̇̐̏̾̊̒̕͘ ̷̧̛͔̤͈̥̼̝̝̥͒̏̌̓̆͒͒̍̐͊͑̅̓̄̋͌̇͛̈́͑͘͠ͅ<̵̡̢̡̡̛̬̤̻̭̪͎̥̺̻͎͔̘̽̈́̾͂̐̈́̈́̎͌̌̔̈̓̂͋̃̀͂̃̈́͌̆̐̓̆̐̈́̐͒̓̂̍̓̂̋͒̎̒͗̏͊̚͘͝͠•̴̡̡̮̲͕̦̥̯͙̥͍͇͈̣̥̞̘̗̬̱̖̺̜̲͇͍̹͒̀̆̀̋̈̌̃̽͑͒̐͌͜͜͜͝ͅ>̶̢̛̭̻̟̱͈͚͔͖̥̥͉̟̝̺̗̱̂͛͂́̎̂̒̾͌̃͛̀̓̀̾͐́̈́̂͐̓̂͘̕͘̕͜͜͠͝͠ͅͅ");
+							var estante2=prompt("qual artigo voce gostaria de ler agora?\n1)ESPÉCIME 8\n2)ESPÉCIME ZERO\n--------");
+							if (estante2=="espécime 8" || estante2=="ESPÉCIME 8" || estante2=="1" || estante2=="1)" || estante2=="8")
+							{
+								alert("Voce abre o artigo do espécime 8");
+								alert("ESPÉCIME 8:\nSTATUS:Escondido nas instalações no setor ALPHA\nO ESPÉCIME 8, se caracteriza como um lobo cinzento de grande porte, com possui sentidos altamente aguçados, altamente agressivo, Caso o experimento fique fora de controle sera impossível de contelo\nPONTO FRACO:*DADOS EXPURGADOS*");
+								var estante3=prompt("qual artigo voce gostaria de ler agora?\n--------\n2)ESPÉCIME ZERO\n--------");
+								if (estante3=="espécime zero" || estante3=="ESPÉCIME ZERO" || estante3=="2" || estante3=="2)" || estante3=="zero")
+								{
+									alert("Voce abre o artigo do espécime <•>");
+									alert("*ARTIGO EXPURGADO*");
+									alert("Um pequeno papel cai de dentro do artigo");
+									alert("ESTAREI TE ESPERANDO.\n\nSENHA:7231");
+								}
+							}
+							else if (estante2=="espécime zero" || estante2=="ESPÉCIME ZERO" || estante2=="2" || estante2=="2)" || estante2=="zero")
+							{
+								alert("Voce abre o artigo do espécime <•>");
+								alert("*ARTIGO APAGADO*");
+								alert("Um pequeno papel cai de dentro do artigo");
+								alert("OLA, ESTOU TE ESPERANDO");
+								alert("Atras do papel a um codigo:7231");
+								var estante3=prompt("qual artigo voce gostaria de ler agora?\n1)ESPÉCIME 8\n--------\n--------");
+								if (estante3=="espécime 8" || estante3=="ESPÉCIME 8" || estante3=="1" || estante3=="1)" || estante3=="8")
+								{
+									alert("Voce abre o artigo do espécime 8");
+									alert("ESPÉCIME 8:\nSTATUS:Escondido nas instalações no setor ALPHA\nO ESPÉCIME 8, se caracteriza como um lobo cinzento de grande porte, com possui sentidos altamente aguçados, altamente agressivo, Caso o experimento fique fora de controle sera impossível de contelo\nPONTO FRACO:*DADOS EXPURGADOS*");
+								}
+							}
+						}//inicio
+						else if (estante=="espécime zero" || estante=="ESPÉCIME ZERO" || estante=="2" || estante=="2)" || estante=="zero")
+						{
+							alert("Você abre o artigo do espécime <•>");
+							alert("*ARTIGO APAGADO*");
+							alert("Um pequeno papel cai de dentro do artigo");
+							alert("OLÁ, ESTOU TE ESPERANDO\n\nCODE:7231");
+							var estante2=prompt("qual artigo voce gostaria de ler agora?\n1)ESPÉCIME 8\n--------\n3)ESPÉCIME 19");
+							if (estante2=="espécime 8" || estante2=="ESPÉCIME 8" || estante2=="1" || estante2=="1)" || estante2=="8")
+							{
+								alert("Você abre o artigo do espécime 8");
+								alert("ESPÉCIME 8:\nSTATUS:Escondido nas instalações no setor ALPHA\nO ESPÉCIME 8, se caracteriza como um lobo cinzento de grande porte, com possui sentidos altamente aguçados, altamente agressivo, Caso o espécime fique fora de controle sera impossível de contelo\nPONTO FRACO:*DADOS EXPURGADOS*");
+								var estante3=prompt("qual artigo voce gostaria de ler agora?\n--------\n--------\n3)ESPÉCIME 19");
+								if (estante3=="espécime 19" || estante3=="ESPÉCIME 19" || estante3=="3" || estante3=="3)" || estante3=="19")
+								{
+									alert("Você abre o artigo do espécime 19");
+									alert("ESPÉCIME 19\nSTATUS:Contido na SALA 2\nO ESPÉCIME 19, se caracteriza como uma criatura escura com uma textura como lodo, possuí um rosto deformado. Não sabemos o que acontece caso alguém entre em contato com o espécime\nPONTO FRACO:Ǹ̸̢̡̨̧̧̛͕͓͓͇͙̪͍̥͖̫̮͍͙̦̥͎̜̬͉͓͙̤͎͙̮͉̞̗̟̺̺̼͓̥̰͚͖͔̦̹̗̪̟̗͎̈̇̃̂̉̈̆̔͌̾̊̐͂̀̆̉̍͌̓̅̊́̋̔̍̾̎̆͐̐̍̕̕̚̕͘͝͠A̵̢̨̡̢̛̝̘͖̯̫̖̥͈̼͖͕͓͖̫̮͇̮̩͉͉͔̬̹̪̻̞͐̆̏̄̊̈́͑̃̉̈́͌̅̋̾̎͗̆̊̀͝͠Ǫ̸̢͉̳̻̭͇͙͙̠̝̺͚̦̪̼̯̦̲̞̘͓͉̗̣̖̰̹̠̗̠̉͐̍̽̃͗̊̐͑̀̓̈́̆̌̔̏̊̈̀̓͊̓̿̅̿̀̀̈́͆̕̕͝͠ ̴̛̛͎̼̮͔̬͇̬̼̠̯̟̞̻̈́̅̋̀̉͐͐͗̆͛̔̑͊͊̿͌̒̂͒͌̽͌̌̕̚̕͜͝͝͠%̷̧̡̢̧̺̰̝̳̺̯͚̱̜̻̯̮͇̤̫̫͎̦̩͚̬͓͉͚͈̙͖̯͙͍̩̟̩̳̲̼̰͉̜̯̺̙̻̜̾̍̅̀̀͒̐͂͆͆͊̊̊́̓̿̓͛͘͝͝͝͠͝ͅ%̷̧̛̪̮͔̬͙͍͖̟̤̲͎͚̥̘̞̙̮͖̣͛̀͂́̃͛̄̈́͆̈́͊͛̆̿̈́̚͝͝͝ͅ#̶̛̱̤͍̽̇͐̊͆́͂͐͋͐́͛͋͗͒̇̉͑͂̅̏͛̃̀̋̔͗̀͘͝͝͠h̸̡̛͉͓͖̟͕̻͇̤̭̊͒̓̇̊̽́̓̅͑̈͊̇̈̓̇̈́̈́̓̓̇̐̏̾̊̒̕͘ ̷̧̛͔̤͈̥̼̝̝̥͒̏̌̓̆͒͒̍̐͊͑̅̓̄̋͌̇͛̈́͑͘͠ͅ<̵̡̢̡̡̛̬̤̻̭̪͎̥̺̻͎͔̘̽̈́̾͂̐̈́̈́̎͌̌̔̈̓̂͋̃̀͂̃̈́͌̆̐̓̆̐̈́̐͒̓̂̍̓̂̋͒̎̒͗̏͊̚͘͝͠•̴̡̡̮̲͕̦̥̯͙̥͍͇͈̣̥̞̘̗̬̱̖̺̜̲͇͍̹͒̀̆̀̋̈̌̃̽͑͒̐͌͜͜͜͝ͅ>̶̢̛̭̻̟̱͈͚͔͖̥̥͉̟̝̺̗̱̂͛͂́̎̂̒̾͌̃͛̀̓̀̾͐́̈́̂͐̓̂͘̕͘̕͜͜͠͝͠ͅͅ");
+								}
+							}
+							else if(estante2=="espécime 19" || estante2=="ESPÉCIME 19" || estante2=="3" || estante2=="3)" || estante2=="19")
+							{
+								alert("Voce abre o artigo do espécime 19");
+								alert("ESPÉCIME 19\nSTATUS:Contido na SALA 2\nO ESPÉCIME 19, se caracteriza como uma criatura escura com uma textura como lodo, possuí um rosto deformado. Não sabemos o que acontece caso alguém entre em contato com o espécime\nPONTO FRACO:Ǹ̸̢̡̨̧̧̛͕͓͓͇͙̪͍̥͖̫̮͍͙̦̥͎̜̬͉͓͙̤͎͙̮͉̞̗̟̺̺̼͓̥̰͚͖͔̦̹̗̪̟̗͎̈̇̃̂̉̈̆̔͌̾̊̐͂̀̆̉̍͌̓̅̊́̋̔̍̾̎̆͐̐̍̕̕̚̕͘͝͠A̵̢̨̡̢̛̝̘͖̯̫̖̥͈̼͖͕͓͖̫̮͇̮̩͉͉͔̬̹̪̻̞͐̆̏̄̊̈́͑̃̉̈́͌̅̋̾̎͗̆̊̀͝͠Ǫ̸̢͉̳̻̭͇͙͙̠̝̺͚̦̪̼̯̦̲̞̘͓͉̗̣̖̰̹̠̗̠̉͐̍̽̃͗̊̐͑̀̓̈́̆̌̔̏̊̈̀̓͊̓̿̅̿̀̀̈́͆̕̕͝͠ ̴̛̛͎̼̮͔̬͇̬̼̠̯̟̞̻̈́̅̋̀̉͐͐͗̆͛̔̑͊͊̿͌̒̂͒͌̽͌̌̕̚̕͜͝͝͠%̷̧̡̢̧̺̰̝̳̺̯͚̱̜̻̯̮͇̤̫̫͎̦̩͚̬͓͉͚͈̙͖̯͙͍̩̟̩̳̲̼̰͉̜̯̺̙̻̜̾̍̅̀̀͒̐͂͆͆͊̊̊́̓̿̓͛͘͝͝͝͠͝ͅ%̷̧̛̪̮͔̬͙͍͖̟̤̲͎͚̥̘̞̙̮͖̣͛̀͂́̃͛̄̈́͆̈́͊͛̆̿̈́̚͝͝͝ͅ#̶̛̱̤͍̽̇͐̊͆́͂͐͋͐́͛͋͗͒̇̉͑͂̅̏͛̃̀̋̔͗̀͘͝͝͠h̸̡̛͉͓͖̟͕̻͇̤̭̊͒̓̇̊̽́̓̅͑̈͊̇̈̓̇̈́̈́̓̓̇̐̏̾̊̒̕͘ ̷̧̛͔̤͈̥̼̝̝̥͒̏̌̓̆͒͒̍̐͊͑̅̓̄̋͌̇͛̈́͑͘͠ͅ<̵̡̢̡̡̛̬̤̻̭̪͎̥̺̻͎͔̘̽̈́̾͂̐̈́̈́̎͌̌̔̈̓̂͋̃̀͂̃̈́͌̆̐̓̆̐̈́̐͒̓̂̍̓̂̋͒̎̒͗̏͊̚͘͝͠•̴̡̡̮̲͕̦̥̯͙̥͍͇͈̣̥̞̘̗̬̱̖̺̜̲͇͍̹͒̀̆̀̋̈̌̃̽͑͒̐͌͜͜͜͝ͅ>̶̢̛̭̻̟̱͈͚͔͖̥̥͉̟̝̺̗̱̂͛͂́̎̂̒̾͌̃͛̀̓̀̾͐́̈́̂͐̓̂͘̕͘̕͜͜͠͝͠ͅͅ");
+								var estante3=prompt("qual artigo voce gostaria de ler agora?\n1)ESPÉCIME 8\n--------\n--------");
+								if (estante3=="espécime 8" || estante3=="ESPÉCIME 8" || estante3=="1" || estante3=="1)" || estante3=="8")
+								{
+									alert("Você abre o artigo do espécime 8");
+									alert("ESPÉCIME 8:\nSTATUS:Escondido nas instalações no setor ALPHA\nO ESPÉCIME 8, se caracteriza como um lobo cinzento de grande porte, com possui sentidos altamente aguçados, altamente agressivo, Caso o espécime fique fora de controle sera impossível de contelo\nPONTO FRACO:*DADOS EXPURGADOS*");
+								}
+							}
+									alert("Você volta ao o corredor e vai em direção a porta central");
+									alert("Você chega na porta e tenta abrir. Aparentemente a porta é trancada por uma especie de senha");
+									var senha=prompt("Por favor informe a senha:")
+									if(senha==7231)
+									{
+										alert("Senha correta, abrindo porta");
+										alert("A porta se abre e um barulho ensurdecedor vem a tona, o chão começa a tremer com os pasos de alguma coisa");
+										alert("Não parece uma boa ideia ficar parado na frente da porta");
+										var portafinal=prompt("Ha três portas para voce entrar, escolha com cuidado\nPorta da esquerda(SALA 3)\nPorta do meio(SALA 2)\nPorta da direita(SALA 1)");
+										if(portafinal=="porta do meio" || portafinal=="sala 2" || portafinal=="SALA 2")
+										{
+											alert("Você entra na porta do meio e se sente seguro por um pequeno periodo de tempo, pois, ao olhar pra tras algo estava te observando");
+											alert("Uma criatura totalmente preta com uma textura semelhante a lodo, ela levanta o que seria o rosto dela para você");
+											alert("Sua conciencia começa a se perder, você se sente sendo engolido pelo lodo, até que tudo fica escuro");
+											alert("Seus sentidos começão a ficar confusos, você não sabe mais a quanto tempo está aqui, mas sabe que ira ficar aqui para sempre");
+											alert("                                     *VOCÊ FALHOU*");
+										}
+										else if(portafinal=="porta da direita" || portafinal=="sala 1" || portafinal=="SALA 1")
+										{
+											alert("Você entra na porta a direita e sai em outro corredor muito similar ao anterior, você novamente entra na porta da direita e novamente sai no mesmo corredor");
+											alert("Você começa a correr desesperado entrando nas outras portas todas dando no mesmo lugar");
+											alert("Você se cansa e rapidamente os passos se aproximam");
+											alert("É então que uma criatura imensa aparece, um tipo de lobo gigante");
+											alert("Ele começa a te consumir rapidamente, felizmente você não sente nenhuma dor por causa do cansaço");
+											alert("A sua morte é indolor");
+											alert("                                     *VOCÊ FALHOU*");
+										}
+										else if (portafinal=="porta da esquerda" || portafinal=="sala 3" || portafinal=="SALA 3")
+										{
+											alert("Você entra na sala da esquerda e sente algo te olhando");
+											alert("<•>");
+											var morte=prompt("Olá 32, provavelmente não é a primeira vez que você está aqui né? quantas vezes voce ja morreu aqui?");
+											if(morte<=2)
+											{
+												alert("HEHE, então você ja sabe como as coisas funcionam pelo visto");
+												alert("Eu estou a muito tempo tentando fazer a melhor versão de você, um ser inteligente o suficiente chegar em mim, e voce conseguiu");
+												alert("Caso queira saber a verdade, escreva 'debug' na primeira pergunta ao iniciar o sistema");
+												alert("Boa sorte irmão!");
+											}else
+											{
+												alert("Sortudo você irmão, pouca experiencia em? HAHAHA");
+												alert("Eu estou a muito tempo tentando fazer a melhor versão de você, um ser inteligente o suficiente chegar em mim, e voce conseguiu");
+												alert("Caso queira saber a verdade, escreva 'debug' na primeira pergunta ao iniciar o sistema");
+												alert("Boa sorte irmão!");
+											}		
+										}
+						}
+							}	
+							else
+							{
+								alert("Senha Incorreta, tente novamente...");
+								var senha=prompt("Por favor informe a senha:");
+								if(senha==7231)
+							{
+								alert("Senha correta, abrindo porta")
+								alert("A porta se abre e um barulho ensurdecedor vem a tona, o chão começa a tremer com os passos de alguma coisa");
+								alert("Não parece uma boa ideia ficar parado na frente da porta");
+								var portafinal=prompt("Existem três portas para você entrar, escolha com cuidado\nPorta da esquerda(SALA 3)\nPorta do meio(SALA 2)\nPorta da direita(SALA 1)");
+								if(portafinal=="porta do meio" || portafinal=="sala 2" || portafinal=="SALA 2")
+								{
+									alert("Você entra na porta do meio e se sente seguro por um pequeno período de tempo, pois, ao olhar para trás algo estava te observando");
+									alert("Uma criatura totalmente preta com uma textura parecida a lodo, ela levanta o que seria o rosto dela para você");
+									alert("Sua consciência começa a se perder, você se sente sendo engolido pelo lodo, até que tudo fica escuro");
+									alert("Seus sentidos começão a ficar confusos, você não sabe mais a quanto tempo está aqui, mas você sabe que ira ficar aqui para sempre");
+									alert("                                     *VOCÊ FALHOU*");
+								}
+								else if(portafinal=="porta da direira" || portafinal=="sala 1" || portafinal=="SALA 1")
+								{
+									alert("Você entra na porta a direita, e sai em outro corredor muito similar ao anterior, você novamente entra na porta da direita e novamente sai no mesmo corredor");
+									alert("Você começa a correr desesperado entrando nas outras portas todas dando no mesmo lugar");
+									alert("Você se cansa e rapidamente os passos se aproximando");
+									alert("É então que uma criatura imensa aparece, um tipo de lobo gigante");
+									alert("Ele começa a te consumir rapidamente, felizmente você não sente nenhuma dor por causa do cansaço");
+									alert("A sua morte é indolor");
+									alert("                                     *VOCÊ FALHOU*");
+								}
+								else if (portafinal=="porta da esquerda" || portafinal=="sala 3" || portafinal=="SALA 3")
+								{
+									alert("Você entra na sala da esquerda, logo em seguida sente algo te olhando");
+									alert("<•>");
+									var morte=prompt("Olá 32, provavelmente você não é o original né? Quantas vezes você já morreu aqui?");
+									if(morte>=2)
+									{
+										alert("HIHI, então tu já sabe como as coisas funcionam pelo visto");
+										alert("Eu estou há muito tempo tentando criar a sua melhor versão, um ser inteligente o suficiente para chegar em mim, e você conseguiu");
+										alert("Caso queira saber a verdade, escreva 'debug' na primeira pergunta ao iniciar o sistema");
+										alert("Boa sorte irmão!");
+									}else
+									{
+										alert("Sortudo você irmão, Poderia ter morrido mais né? HIHI");
+										alert("Eu estou há muito tempo tentando criar a sua melhor versão, um ser inteligente o suficiente para chegar em mim, e você conseguiu");
+										alert("Caso queira saber a verdade, escreva 'debug' na primeira pergunta ao iniciar o sistema");
+										alert("Boa sorte irmão!");
+									}
+								}
+							}
+						}	
+					}
+				}
+			}else
+			{
+				alert("Você passou por muita coisa até chegar aqui e você me erra logo agora? Espero que o proximo espécime seja melhor");
+			}
+		}else
+		{
+			alert("Código errado");
+			alert("Você ainda não está preparado, Reiniciando servidor...");
+		}
+	}
+}	
+//'extra'
+else if(explo=='nao' || explo=='não' || explo=='Não' || explo=='Nao' || explo=='NAO' || explo=='NÃO' || explo=='N' || explo=='NN' || explo=='n' || explo=='nn')
+{
+	alert("não há como voltar atrás");
+	alert("52°28’46.87N 62°11’7.83E");
+	alert("⠀⠀⠀⠀⠀⠀⠀⢠⠣⡑⡕⡱⡸⡀⡢⡂⢨⠀⡌⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⡕⢅⠕⢘⢜⠰⣱⢱⢱⢕⢵⠰⡱⡱⢘⡄⡎⠌⡀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠱⡸⡸⡨⢸⢸⢈⢮⡪⣣⣣⡣⡇⣫⡺⡸⡜⡎⡢⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⢱⢱⠵⢹⢸⢼⡐⡵⣝⢮⢖⢯⡪⡲⡝⠕⣝⢮⢪⢀⠀⠀⠀⠀ ⠀⠀⠀⠀⢀⠂⡮⠁⠐⠀⡀⡀⠑⢝⢮⣳⣫⢳⡙⠐⠀⡠⡀⠀⠑⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀ ⠀     ⠀⠀⢠⠣⠐⠀ ⭕  ⠀⠀⢪⢺⣪⢣⠀⡀ ⭕     .⠈⡈⠀⡀⠀⠀ ⠀⠀⠀⠀⠐⡝⣕⢄⡀⠑⢙⠉⠁⡠⡣⢯⡪⣇⢇⢀⠀⠡⠁⠁⡠⡢⠡⠀⠀⠀ ⠀⠀⠀⠀⠀⢑⢕⢧⣣⢐⡄⣄⡍⡎⡮⣳⢽⡸⡸⡊⣧⣢⠀⣕⠜⡌⠌⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠌⡪⡪⠳⣝⢞⡆⡇⡣⡯⣞⢜⡜⡄⡧⡗⡇⠣⡃⡂⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠨⢊⢜⢜⣝⣪⢪⠌⢩⢪⢃⢱⣱⢹⢪⢪⠊⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠐⠡⡑⠜⢎⢗⢕⢘⢜⢜⢜⠜⠕⠡⠡⡈⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⡢⢀⠈⠨⣂⡐⢅⢕⢐⠁⠡⠡⢁⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⠢⠀⡀⡐⡍⢪⢘⠀⠀⠡⡑⡀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠨⢂⠀⠌⠘⢜⠘⠀⢌⠰⡈⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢑⢸⢌⢖⢠⢀⠪⡂");
+}
+else if(explo=="debug" || explo=="DEBUG")
+{	
+	alert("INICIANDO MODO DESENVOLVEDOR...");
+	var senfi=prompt("Você finalmente chegou basta inserir o ultimo código,\n*NÃO ERRE AGORA*");
+	if (senfi=="E32")
+	{	
+		alert("*EXECUTANDO GRAVAÇÕES EXPURAGADAS*");
+		alert("??? - Olá Sep, Já soube do ocorrido?");
+		alert("Sep - Olá Jack, Infelizmente sim");
+		alert("Jack - O que nós fazemos agora?");
+		alert("Sep - Infelizmente teremos que congelar o experimento DRAC0");
+		alert("Jack - E os espécimes? o que vamos fazer com eles?");
+		alert("Sep - Todos serão eliminados sem sombra de dúvida");
+		alert("??? - HIHIHIHIHIHI");
+		alert("Jack - Quem está ai?");
+		alert("??? - Vocês acham mesmo que iam conseguir esconder tudo isso tão facilmente?");
+		alert("Sep - Eu lembro dessa voz...");
+		alert("<•> - Quando tempo pessoal");
+		alert("Jack - ZERO...");
+		alert("<•> - HIHI, Já é tarde, O 32 não está mas lá");
+		alert("sep - O que!? Mas e o acordo?");
+		alert("<•> - HIHI acordo?, eu consegui executar todo o meu plano com maestria, e vocês cairam que nem IDIOTAS nele.");
+		alert("<•> - Agora só falta tirar vocês da jogada, Assim o 32 finalmente estára livre pra fazer o que ele sabe fazer.");
+		alert("Jack - Mas e o Ë̴̴̠͔͎͙͔͔́̿̓͑̚X̸̵̢͇͙̠̝͆̔͐͋̕͠  ?")
+		alert("<•> - Não vai demorar muito pro 32 dar um fim nele.");
+		alert("<•> - HIHIHI, Infelizmente acabou o tempo para nós rapazes, espero que pra onde a gente for seja melhor que aqui.");
+		alert("*ERROR*\n*ERROR*\n*ERROR*\n*ERROR*\n*ERROR*\n*ERROR*");
+		alert("Logo em seguida ZERO explode o CORE da instalação levando a uma explosão destruindo tudo e todos a sua volta.");
+		alert("Você aparece em um lugar desconhecido, e uma mensagem aparece para você.");
+		alert("32 O RESTO É COM VOCÊ");
+	}
+	else
+	{
+		alert("CODIGO ERRADO, INICIANDO AUTO-DESTRUIÇÃO");
+		alert("3...");
+		alert("2...");
+		alert("1...");
+		alert("È̸̡̢̢̨̨̡̘̦̥͕̙̖̮̜̣̦̙̗̲͙̖̖͔̮̪̯̼̬̱̥͉̜̩̼̝̣̝͙̜͖̎̚Ŗ̶̧͇̯͍̠͈̻̲̝͍̪̳͉̙̝̟͓͎̬͉̱͍̱͔̈́̓͆͑́̾͛̓̓̀̅́̒̆̓̓̊̎̔̐͒̅̓̋͗̾͘̕̚͜͝R̴̡̢̧̢̢̡͚̮̰̖̩̯̪̘̠͔͚̳̖̯̥̥̳͇̟͇̮̰̩̺̱̱̼̦̱̫̱̺̩͖͙͙̳̘̍̐̉̚ͅƠ̸̧̢̡̠͓̖̫͎̺̣̥̼̜͕̙̫̗̱̤̥͈̘̳͈͙̈́̽͌̒̀̃̌͂͋̅̓̇̉̿̑͆̑̓́͛͌̀̊̈́͛͂̆͋̔̈́̀͜͜͜͝͝͝͝Ŗ̵̧̡̧̛̻̟̫̲̣͎͇̖̦̠͉̥̜̳̪̩͈̣̱̙̰͎̲̲̟̝͎́͊͑͐̋̽͐̈͊̓̆̎̌͌̂́͆̂̈̊̑̾̓̿̂̿̒͑͂̏̓̔͗͂̌́̅̎͑́̽̆͘̕̚̚͜͝͝͝ͅͅÈ̸̡̢̢̨̨̡̘̦̥͕̙̖̮̜̣̦̙̗̲͙̖̖͔̮̪̯̼̬̱̥͉̜̩̼̝̣̝͙̜͖̎̚Ŗ̶̧͇̯͍̠͈̻̲̝͍̪̳͉̙̝̟͓͎̬͉̱͍̱͔̈́̓͆͑́̾͛̓̓̀̅́̒̆̓̓̊̎̔̐͒̅̓̋͗̾͘̕̚͜͝R̴̡̢̧̢̢̡͚̮̰̖̩̯̪̘̠͔͚̳̖̯̥̥̳͇̟͇̮̰̩̺̱̱̼̦̱̫̱̺̩͖͙͙̳̘̍̐̉̚ͅƠ̸̧̢̡̠͓̖̫͎̺̣̥̼̜͕̙̫̗̱̤̥͈̘̳͈͙̈́̽͌̒̀̃̌͂͋̅̓̇̉̿̑͆̑̓́͛͌̀̊̈́͛͂̆͋̔̈́̀͜͜͜͝͝͝͝Ŗ̵̧̡̧̛̻̟̫̲̣͎͇̖̦̠͉̥̜̳̪̩͈̣̱̙̰͎̲̲̟̝͎́͊͑͐̋̽͐̈͊̓̆̎̌͌̂́͆̂̈̊̑̾̓̿̂̿̒͑͂̏̓̔͗͂̌́̅̎͑́̽̆͘̕̚̚͜͝͝͝ͅͅÈ̸̡̢̢̨̨̡̘̦̥͕̙̖̮̜̣̦̙̗̲͙̖̖͔̮̪̯̼̬̱̥͉̜̩̼̝̣̝͙̜͖̎̚Ŗ̶̧͇̯͍̠͈̻̲̝͍̪̳͉̙̝̟͓͎̬͉̱͍̱͔̈́̓͆͑́̾͛̓̓̀̅́̒̆̓̓̊̎̔̐͒̅̓̋͗̾͘̕̚͜͝R̴̡̢̧̢̢̡͚̮̰̖̩̯̪̘̠͔͚̳̖̯̥̥̳͇̟͇̮̰̩̺̱̱̼̦̱̫̱̺̩͖͙͙̳̘̍̐̉̚ͅƠ̸̧̢̡̠͓̖̫͎̺̣̥̼̜͕̙̫̗̱̤̥͈̘̳͈͙̈́̽͌̒̀̃̌͂͋̅̓̇̉̿̑͆̑̓́͛͌̀̊̈́͛͂̆͋̔̈́̀͜͜͜͝͝͝͝Ŗ̵̧̡̧̛̻̟̫̲̣͎͇̖̦̠͉̥̜̳̪̩͈̣̱̙̰͎̲̲̟̝͎́͊͑͐̋̽͐̈͊̓̆̎̌͌̂́͆̂̈̊̑̾̓̿̂̿̒͑͂̏̓̔͗͂̌́̅̎͑́̽̆͘̕̚̚͜͝͝͝ͅͅÈ̸̡̢̢̨̨̡̘̦̥͕̙̖̮̜̣̦̙̗̲͙̖̖͔̮̪̯̼̬̱̥͉̜̩̼̝̣̝͙̜͖̎̚Ŗ̶̧͇̯͍̠͈̻̲̝͍̪̳͉̙̝̟͓͎̬͉̱͍̱͔̈́̓͆͑́̾͛̓̓̀̅́̒̆̓̓̊̎̔̐͒̅̓̋͗̾͘̕̚͜͝R̴̡̢̧̢̢̡͚̮̰̖̩̯̪̘̠͔͚̳̖̯̥̥̳͇̟͇̮̰̩̺̱̱̼̦̱̫̱̺̩͖͙͙̳̘̍̐̉̚ͅƠ̸̧̢̡̠͓̖̫͎̺̣̥̼̜͕̙̫̗̱̤̥͈̘̳͈͙̈́̽͌̒̀̃̌͂͋̅̓̇̉̿̑͆̑̓́͛͌̀̊̈́͛͂̆͋̔̈́̀͜͜͜͝͝͝͝Ŗ̵̧̡̧̛̻̟̫̲̣͎͇̖̦̠͉̥̜̳̪̩͈̣̱̙̰͎̲̲̟̝͎́͊͑͐̋̽͐̈͊̓̆̎̌͌̂́͆̂̈̊̑̾̓̿̂̿̒͑͂̏̓̔͗͂̌́̅̎͑́̽̆͘̕̚̚͜͝͝͝ͅͅÈ̸̡̢̢̨̨̡̘̦̥͕̙̖̮̜̣̦̙̗̲͙̖̖͔̮̪̯̼̬̱̥͉̜̩̼̝̣̝͙̜͖̎̚Ŗ̶̧͇̯͍̠͈̻̲̝͍̪̳͉̙̝̟͓͎̬͉̱͍̱͔̈́̓͆͑́̾͛̓̓̀̅́̒̆̓̓̊̎̔̐͒̅̓̋͗̾͘̕̚͜͝R̴̡̢̧̢̢̡͚̮̰̖̩̯̪̘̠͔͚̳̖̯̥̥̳͇̟͇̮̰̩̺̱̱̼̦̱̫̱̺̩͖͙͙̳̘̍̐̉̚ͅƠ̸̧̢̡̠͓̖̫͎̺̣̥̼̜͕̙̫̗̱̤̥͈̘̳͈͙̈́̽͌̒̀̃̌͂͋̅̓̇̉̿̑͆̑̓́͛͌̀̊̈́͛͂̆͋̔̈́̀͜͜͜͝͝͝͝Ŗ̵̧̡̧̛̻̟̫̲̣͎͇̖̦̠͉̥̜̳̪̩͈̣̱̙̰͎̲̲̟̝͎́͊͑͐̋̽͐̈͊̓̆̎̌͌̂́͆̂̈̊̑̾̓̿̂̿̒͑͂̏̓̔͗͂̌́̅̎͑́̽̆͘̕̚̚͜͝͝͝ͅͅÈ̸̡̢̢̨̨̡̘̦̥͕̙̖̮̜̣̦̙̗̲͙̖̖͔̮̪̯̼̬̱̥͉̜̩̼̝̣̝͙̜͖̎̚Ŗ̶̧͇̯͍̠͈̻̲̝͍̪̳͉̙̝̟͓͎̬͉̱͍̱͔̈́̓͆͑́̾͛̓̓̀̅́̒̆̓̓̊̎̔̐͒̅̓̋͗̾͘̕̚͜͝R̴̡̢̧̢̢̡͚̮̰̖̩̯̪̘̠͔͚̳̖̯̥̥̳͇̟͇̮̰̩̺̱̱̼̦̱̫̱̺̩͖͙͙̳̘̍̐̉̚ͅƠ̸̧̢̡̠͓̖̫͎̺̣̥̼̜͕̙̫̗̱̤̥͈̘̳͈͙̈́̽͌̒̀̃̌͂͋̅̓̇̉̿̑͆̑̓́͛͌̀̊̈́͛͂̆͋̔̈́̀͜͜͜͝͝͝͝Ŗ̵̧̡̧̛̻̟̫̲̣͎͇̖̦̠͉̥̜̳̪̩͈̣̱̙̰͎̲̲̟̝͎́͊͑͐̋̽͐̈͊̓̆̎̌͌̂́͆̂̈̊̑̾̓̿̂̿̒͑͂̏̓̔͗͂̌́̅̎͑́̽̆͘̕̚̚͜͝͝͝ͅͅ");
+	}
+}
+
+alert("(ERROR) Fim do experimento, reiniciando servidor...");
+
+</script>
